@@ -4,7 +4,6 @@ read -p "Enter the definition:" -r definition
 
 dir="${dir:-/media/pico/Coco/Troubleshooting Bible/docs}"
 
-echo "# $title 
-$definition
-*CompTIA A+*
-" >> "$dir/$title.md"
+echo "$definition
+
+*CompTIA A+*" >> "$dir/$title.md"

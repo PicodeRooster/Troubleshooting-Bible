@@ -1,0 +1,3 @@
+A Windows utility tool that provides comprehensive, real-time overview of everything happening under the hood. Shows running applications and background processes, along with performance graphs on CPU, memory, disk and network usage. You can terminate unresponsive programs with End Task, detect memory leaks or diagnose bottlenecks in real time. The Start-Up tab also provides control of applications that launch during boot.
+
+*CompTIA A+*
