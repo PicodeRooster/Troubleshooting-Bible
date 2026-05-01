@@ -25,3 +25,6 @@
 	
 `diskpart`
 `format`
+
+
+*CompTIA A+*
