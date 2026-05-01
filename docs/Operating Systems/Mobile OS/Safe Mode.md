@@ -1,0 +1,5 @@
+- Boots device with third-party apps disabled
+- Useful for diagnosing app conflicts or performance issues
+- Android: Press and hold Power > tap and hold “Power Off” > Safe Mode
+- iOS: No official Safe Mode - jailbroken devices can simulate it
+- Useful for diagnosing app conflicts or performance issues
