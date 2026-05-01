@@ -1,4 +1,4 @@
- Mapping drives makes remote folders appear as a local disk in File Explorer, useful for dept accessing shared centralized data.
+ Mapping drives makes remote folders appear as a local disk in File Explorer, useful for departments accessing shared centralized data.
  
 1. Open File Explorer
 2. Click “Map network drive”  from the ribbon
