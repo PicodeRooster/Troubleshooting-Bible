@@ -2,4 +2,5 @@ An operating system designed for end-user productivity, optimized for GUIs, soft
       *Examples:*  
       *Microsoft Windows 11, macOS, Ventura, Ubuntu Linux*
       
+
 *CompTIA A+*
