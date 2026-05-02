@@ -29,5 +29,8 @@ The dominant mobile OS, is open source and widely used on smartphones and tablet
 ### Recovery Mode
 Power + Volume Up (varies by device) > Recovery Mode
 
+### Safe Mode
+Press and hold Power > tap and hold "Power Off" > Select Safe Mode.
+
 *CompTIA A+*
 

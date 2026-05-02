@@ -24,6 +24,9 @@ Developed by Apple, this mobile OS is tightly integrated with Apple hardware and
 
 ### Recovery Mode
 Connect to PC/Mac with iTunes or Finder, then enter Recovery Mode via button combo.
- 
+
+### Safe Mode
+No native Safe Mode unless jailbroken; alt is to restart % launching recent apps.
+
 *CompTIA A+*
 

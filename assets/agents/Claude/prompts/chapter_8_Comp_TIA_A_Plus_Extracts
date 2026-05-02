@@ -1,0 +1,39 @@
+For this session, you have access to the following files and locations:
+
+/media/pico/Coco/Troubleshooting Bible/assets/references/chapter_8_a_plus.pdf
+/media/pico/Coco/Troubleshooting Bible/assets/agents/Claude/chapter_8_extracts
+
+------------------------------------------------------------------------------
+
+Extract unaltered content to new files dividing information based on topics covered. Only add the following footer with one space in between the extracted content:
+
+*CompTIA A+* 
+
+Output new files as "extract[number].md" to ./chapter_8_extracts
+
+------------------------------------------------------------------------------
+
+Read ./assets/agents/Claude/extract5.md
+
+------------------------------------------------------------------------------Follow the previous instructions of extract and compart using ONLY ./assets/agents/Claude/extract5.md, but name the output files based on the topic this time. If topic has colons or slashes in the title, replace the with a hyphen. For example: "CPU.md"   
+
+------------------------------------------------------------------------------
+Read ./extract7.md
+
+Extract unaltered content to new files dividing information based on topics covered. Only add the following footer with one space in between the extracted content:
+
+*CompTIA A+* 
+
+Output new files as "[Subject Name].md" to ./chapter_8_extracts. If topic has colons or slashes in the title, replace the with a hyphen. For example: "CPU.md" 
+------------------------------------------------------------------------------
+Repeat previous instructions targeting ./extract8.md
+
+------------------------------------------------------------------------------
+Extract unaltered content from ./extract16.md
+Modify ./Basic CLI Utility Tools.md and add the content from extract16.md organized in a matter that makes most sense to the current format of "Basic CLI Utility Tools.md"
+
+>> Claude did not really modify anything as it believed I needed to just add the commands to the doc and omit the descriptions. 
+------------------------------------------------------------------------------
+i need you to actually add the commands' descriptions from extract16.md to "Basic CLI 
+   Utility Tools.md"  
+
