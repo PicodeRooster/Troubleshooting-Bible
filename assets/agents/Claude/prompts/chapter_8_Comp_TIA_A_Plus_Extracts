@@ -37,3 +37,14 @@ Modify ./Basic CLI Utility Tools.md and add the content from extract16.md organi
 i need you to actually add the commands' descriptions from extract16.md to "Basic CLI 
    Utility Tools.md"  
 
+------------------------------------------------------------------------------
+
+Read /media/pico/Coco/Troubleshooting Bible/assets/references/chapter_9_a_plus.pdf
+
+------------------------------------------------------------------------------
+Extract unaltered content to new files dividing information based on topics covered. Only add the following footer with one space in between the extracted content:
+
+*CompTIA A+* 
+
+Output new files as "[Subject Name].md" to ./outputs. If topic has colons or slashes in the title, replace the with a hyphen. For example: "CPU - Usage.md" 
+
