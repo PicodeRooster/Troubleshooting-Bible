@@ -1,6 +1,6 @@
 # Troubleshooting Bible
 
-The Troubleshooting Bible is a central reference document for IT professionals, system administrators, and support teams. It collects proven diagnostic methods, standard procedures, common error patterns, and practical fixes in one searchable master guide.
+The Troubleshooting Bible is an offline-first central reference document for IT professionals, system administrators, and support teams. It collects proven diagnostic methods, standard procedures, common error patterns, and practical fixes in one searchable master guide.
 
 Key strengths:
 - Consolidates recurring problems across hardware, software, networking, and system services
