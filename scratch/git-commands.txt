@@ -1,5 +1,0 @@
-git add . -- stage changes in current dir and subdirs for next commit
-
-git commit -m "My commit message"
-
-git push origin main
