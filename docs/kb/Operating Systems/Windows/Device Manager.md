@@ -1,3 +1,0 @@
-A Windows utility tool that acts as the control panel for your computer’s hardware. It lists every device connected - network adapters, disk drives, graphic cards, and more - along with their operational status. Yellow triangles with exclamation marks flag driver conflicts or hardware malfunctions. From this console, you can update drivers, roll them back, disable or uninstall devices, and delve into driver details and power management settings.
-
-*CompTIA A+*
