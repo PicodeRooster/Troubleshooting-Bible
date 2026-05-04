@@ -1,4 +1,0 @@
-kb - knowledge base, currently in review   
-vocab - quick definitions    
-wiki - encyclopedia entries    
-ht - how-to guides
