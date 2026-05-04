@@ -1,1 +1,0 @@
-Ensure that once the session times out, credentials are req to regain access. Prevents unauthorized users from snooping. Reasonable timeout  intervals (5 to 15 minutes of inactivity) strikes balance between usability and protection.

@@ -1,0 +1,190 @@
+.
+├── Hardware
+│   └── How To Flash USB Drive.md
+├── Networks
+│   ├── Bluetooth Issues.md
+│   ├── Cellular Issues.md
+│   ├── Disabling Services and Unused Ports.md
+│   ├── How to map a network drive.md
+│   ├── HTTPS.md
+│   ├── TLS.md
+│   ├── Wi-Fi Problems.md
+│   ├── WPA2.md
+│   └── WPA3.md
+├── Operating Systems
+│   ├── ChromeOS.md
+│   ├── Clean Install.md
+│   ├── Commercial Operating Systems.md
+│   ├── How to Install a New Operating System.md
+│   ├── Linux.md
+│   ├── macOS.md
+│   ├── Mobile OS
+│   │   ├── Android.md
+│   │   ├── Factory Reset.md
+│   │   ├── iOS.md
+│   │   ├── Mobile OS.md
+│   │   └── Safe Mode.md
+│   ├── Multiboot Configurations.md
+│   ├── Open Source Operating System.md
+│   ├── OS Update Failures.md
+│   ├── OS Update Rollbacks.md
+│   ├── Server OS.md
+│   ├── Upgrade Installation.md
+│   ├── Windows
+│   │   ├── Boot Errors.md
+│   │   ├── BSOD (Blue Screen of Death).md
+│   │   ├── Control Panel.md
+│   │   ├── Device Manager.md
+│   │   ├── Effective Permissions.md
+│   │   ├── EFS (Encryption File System).md
+│   │   ├── Event Viewer.md
+│   │   ├── msconfig.md
+│   │   ├── Network Settings.md
+│   │   ├── Performance Monitor (perfmon).md
+│   │   ├── Programs & Features.md
+│   │   ├── Recovery Options.md
+│   │   ├── Registry Editor (regedit).md
+│   │   ├── Reliability Monitor.md
+│   │   ├── Resource Monitor.md
+│   │   ├── Services.msc.md
+│   │   ├── Settings App.md
+│   │   ├── System Configuration (msconfig).md
+│   │   ├── Task Manager.md
+│   │   ├── Troubleshooter.md
+│   │   ├── User Accounts.md
+│   │   └── Windows.md
+│   └── Workstation OS.md
+├── Safety & Operational Procedures
+│   ├── Active Listening.md
+│   ├── Asset Documentation.md
+│   ├── Audit Logging.md
+│   ├── Authentication Settings.md
+│   ├── Cable Management.md
+│   ├── Chain of Custody for Sensitive Devices.md
+│   ├── Change Logs.md
+│   ├── Change Management Process - Request, Review, Approve, Implement.md
+│   ├── Clarity.md
+│   ├── Cloud Backups.md
+│   ├── Confidentiality.md
+│   ├── Dealing with Difficult Customers Professionally.md
+│   ├── Degaussing.md
+│   ├── Differential Backup.md
+│   ├── Dust Management.md
+│   ├── Empathy.md
+│   ├── Escalation Procedures.md
+│   ├── ESD Precautions and Antistatic Equipment.md
+│   ├── Ethical Behavior.md
+│   ├── Fire Safety.md
+│   ├── Full Backup.md
+│   ├── Generators.md
+│   ├── Humidity Monitoring.md
+│   ├── Incremental Backup.md
+│   ├── Lifting Techniques.md
+│   ├── Lock Screens and Timeout Policies.md
+│   ├── Managing End-User Rights and Permissions.md
+│   ├── Mobile and Offsite Worker Policies.md
+│   ├── MSDS and Proper Handling of Hazardous Materials.md
+│   ├── Network Diagrams.md
+│   ├── Network Documentation.md
+│   ├── Non-Disclosure Agreements.md
+│   ├── Offsite Backups.md
+│   ├── Onsite Backups.md
+│   ├── Recycling Electronics and Following Legal Guidelines.md
+│   ├── Remote Access Tools and Support Etiquette.md
+│   ├── Restoration Procedures and Test Recovery.md
+│   ├── RPO and RTO.md
+│   ├── Shredding.md
+│   ├── Site Plans.md
+│   ├── Software Licensing Documentation.md
+│   ├── Surge Protectors.md
+│   ├── Temperature Monitoring.md
+│   ├── The 3-2-1 Rule.md
+│   ├── Ticket Documentation.md
+│   ├── UPS.md
+│   ├── Wipes vs Factory Reset vs Reformat.md
+│   └── Wiping.md
+├── Security
+│   ├── Authentication.md
+│   ├── Authorization.md
+│   ├── AV.md
+│   ├── Biometrics.md
+│   ├── BIOS or UEFI Security.md
+│   ├── Bluetooth.md
+│   ├── Containerization.md
+│   ├── Data Destruction and Disposal Methods.md
+│   ├── Email.md
+│   ├── Encryption.md
+│   ├── Face Recognition.md
+│   ├── Fingerprint Scanning.md
+│   ├── Firewall.md
+│   ├── Impersonation.md
+│   ├── Incident Response Plan (IRP).md
+│   ├── Insider Threats.md
+│   ├── Lock Screens.md
+│   ├── Logic Bombs.md
+│   ├── Malware Remediation.md
+│   ├── Mobile Authentication Apps.md
+│   ├── Multifactor Authentication (MFA).md
+│   ├── Passwords.md
+│   ├── Phishing.md
+│   ├── Physical Security Controls.md
+│   ├── Principle of Least Privilege.md
+│   ├── Ransomware.md
+│   ├── Recovery Options After Infection.md
+│   ├── Remote wipe.md
+│   ├── Role-Based Access Control (RBAC).md
+│   ├── Rootkits.md
+│   ├── Signs of Adware, Spyware, and PUPs.md
+│   ├── Signs of Malware Infection.md
+│   ├── Signs of Malware Infection or Compromise.md
+│   ├── Single Sign-On (SSO).md
+│   ├── Smart Cards.md
+│   ├── Social Engineering.md
+│   ├── Spear Phishing.md
+│   ├── Tokens.md
+│   ├── Trojan Horse.md
+│   ├── USB Devices.md
+│   ├── User and Group Rights.md
+│   ├── Virus.md
+│   ├── Voice Recognition.md
+│   ├── VPNs.md
+│   ├── Web.md
+│   ├── Worms.md
+│   └── Zero-Day Attacks.md
+├── Software
+│   ├── Antivirus Conflicts.md
+│   ├── App Crashes.md
+│   ├── Application Crashes and Compatibility Problems.md
+│   ├── Battery Drain.md
+│   ├── Corrupted User Profiles.md
+│   ├── Device Not Recognized.md
+│   ├── Driver Signature Issues.md
+│   ├── Printer Driver Conflicts.md
+│   ├── Registry Corruption.md
+│   ├── Rogue Software Removal.md
+│   ├── Rogue Software Signs.md
+│   ├── Rollback Drivers.md
+│   ├── Scan Failures and Quarantine Problems.md
+│   ├── System Performance Issues.md
+│   ├── System Restore.md
+│   ├── Uninstallation Problems and Residual Files.md
+│   ├── Unresponsive Screen.md
+│   ├── Update Drivers.md
+│   └── USB and Peripheral Detection Failures.md
+├── Storage
+│   ├── exFAT.md
+│   ├── FAT32.md
+│   ├── NTFS.md
+│   └── Partition.md
+├── System Architecture
+│   ├── 32-bit OS.md
+│   ├── 64-bit OS.md
+│   ├── File Attributes.md
+│   ├── Folder sharing basics.md
+│   ├── Hidden & Protected Files.md
+│   ├── System Restore.md
+│   └── Zip Compression.md
+└── Terminal
+    └── Basic CLI Utility Tools.md
+
+12 directories, 176 files
