@@ -19,7 +19,7 @@
    > Removing the USB, losing power, or cancelling mid-write will leave the drive in a partially written state. A partially written drive is **not bootable** — it will either fail silently at the boot screen or not be recognized at all. The ISO data on the drive will be corrupted and unrecoverable. You will need to reformat the USB and start the flash from scratch. If the drive suffers repeated interrupted writes, it can develop bad sectors and become permanently unusable. Always let the flash and verification finish completely before touching the drive.
 
 5. **Using Etcher** Right click Etcher > Run (or press Enter).
-   6. **Flash from file** → navigate to your downloads and select the `mint.iso`
+   6. **Flash from file** → navigate to your downloads and select the `.iso` file for your desired OS.
    7. **Select target** → pick the USB drive for flashing
    8. **Flash!** → select the **Flash** button.
 
@@ -39,10 +39,4 @@
 16. The OS installer will complete its process and prompt you to reboot. When prompted, remove the USB drive, then allow the system to restart. The machine will boot into your newly installed OS.
 
    > **Note:** If keyboard drivers fail to load at the removal prompt and you cannot proceed, it is safe to power off the machine manually. The OS has already finished installing — the prompt exists only to prevent the system from accidentally booting from the USB again. 
-
-## Sources
-
-- Kingston Technology. *How to Create a Bootable USB Drive for Windows.* Nov 2025. https://www.kingston.com/en/blog/personal-storage/create-bootable-usb-drive-windows
-- Microsoft. "Boot from a USB Drive." *Microsoft Learn*, 22 June 2021, https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/factoryos/boot-from-a-usb-drive?view=windows-11
-- *CompTIA A+*
 
