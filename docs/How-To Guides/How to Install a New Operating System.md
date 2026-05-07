@@ -1,4 +1,3 @@
-
 ## Pre-Requisites
 
  - A brand new USB flash drive, or one you are willing to lose the data, of at least 8GB storage.
