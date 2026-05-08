@@ -217,6 +217,6 @@ Boots Android with only pre-installed system apps, disabling all third-party app
 
 ## Sources
 
-Alian, Mohammad, et al. “Android Operating System: An in Depth Introduction.” University of Illinois Urbana-Champaign .
+ - Alian, Mohammad, et al. “Android Operating System: An in Depth Introduction.” University of Illinois Urbana-Champaign .
 
-Walker, Shawn. _CompTIA Study Guide A+: 220-1201 and 220-1202_. 3rd ed., 2025.
+ - Walker, Shawn. _CompTIA Study Guide A+: 220-1201 and 220-1202_. 3rd ed., 2025.

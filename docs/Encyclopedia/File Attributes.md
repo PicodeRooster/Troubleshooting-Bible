@@ -15,4 +15,4 @@ Flags assigned to files and folders affecting visibility, importance and user in
 	
 - **Archive**: Signals file has changed since last backup
 
-*CompTIA A+*
+Walker, Shawn. _CompTIA Study Guide A+: 220-1201 and 220-1202_. 3rd ed., 2025.

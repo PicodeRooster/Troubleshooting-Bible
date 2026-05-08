@@ -96,3 +96,5 @@ Partitioning is most justified when there is a firm requirement for it, such as 
 R-Tools Technology. "What Is a Disk Partition." *R-Studio*, www.r-studio.com/What-is-Disk-Partition.html.
 
 Gordon, Whitson. "Time to Split: How to Partition a Hard Drive in Windows." *PCMag*, 3 Sept. 2024, www.pcmag.com/how-to/how-to-partition-a-hard-drive.
+
+Walker, Shawn. _CompTIA Study Guide A+: 220-1201 and 220-1202_. 3rd ed., 2025.

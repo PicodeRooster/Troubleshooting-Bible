@@ -58,4 +58,4 @@ Because ZIP is lossless, the content of every file inside an archive is guarante
 
 Lenovo. "What Is ZIP? How Does ZIP Compression Work?" *Lenovo US*, www.lenovo.com/us/en/glossary/what-is-zip/.
 
-*CompTIA A+ Core 2 Exam: Guide to IT Technical Support*. CompTIA, 2022.
+Walker, Shawn. _CompTIA Study Guide A+: 220-1201 and 220-1202_. 3rd ed., 2025.

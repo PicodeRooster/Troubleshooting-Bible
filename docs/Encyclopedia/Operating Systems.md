@@ -108,3 +108,4 @@ AI integration is an emerging area of operating system development. AI-powered f
 - IBM. *What is an Operating System?* https://www.ibm.com/think/topics/operating-systems
 - Canonical. *Ubuntu Desktop PC Operating System.* https://ubuntu.com/desktop
 - Red Hat. *Red Hat Enterprise Linux for Workstations.* https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux/workstations
+- Walker, Shawn. _CompTIA Study Guide A+: 220-1201 and 220-1202_. 3rd ed., 2025.
