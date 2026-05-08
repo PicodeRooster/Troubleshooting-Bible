@@ -22,3 +22,21 @@ Read 'What is a Disk Partition.pdf'
 Read 'Time to Split_ How to Partition a Hard Drive in Windows _ PCMag.pdf'
 Create a wiki article on the topic, Disk Partition.md. Output to /media/pico/Coco/Troubleshooting Bible/assets/agents/Claude
 
+
+Read 'What is a CLI_ - Command Line Interface Explained - AWS.pdf'
+Read 'About CLI commands - IBM Documentation.pdf'
+Create a wiki article on the topic of CLI's. Source the article at the end of our wiki. Output to /media/pico/Coco/Troubleshooting Bible/assets/agents/Claude
+
+
+
+------------------------------------------------------
+Read /media/pico/Coco/Troubleshooting Bible/assets/agents/Claude/Android.md
+Read /media/pico/Coco/Troubleshooting Bible/assets/references/Android.pdf
+
+Create a wiki article. Output to /media/pico/Coco/Troubleshooting Bible/assets/agents/Claude/Android2.md Add the source section empty for now.
+
+----------------------
+Read /media/pico/Coco/Troubleshooting Bible/assets/references/iOS.md
+Draft a rewrite based on content already in the article.
+Output your version to /media/pico/Coco/Troubleshooting Bible/assets/agents/Claude/iOS.md
+
