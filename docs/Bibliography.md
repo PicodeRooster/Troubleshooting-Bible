@@ -11,3 +11,4 @@
 10. “Tech Glossary for Understanding Innovations.” Tech Glossary for Understanding Innovations | Lenovo US, www.lenovo.com/us/en/glossary/. Accessed 8 May 2026. 
 11. Karl-Bridge-Microsoft. “Windows App Development Documentation - Windows Apps.” Windows Apps | Microsoft Learn, learn.microsoft.com/en-us/windows/apps/. Accessed 8 May 2026. 
 12. Alian, Mohammad, et al. “Android Operating System: An in Depth Introduction.” University of Illinois Urbana-Champaign. 
+13. Apple Inc. “iOS.” Apple Developer, developer.apple.com/ios/. Accessed 8 May 2026. 
