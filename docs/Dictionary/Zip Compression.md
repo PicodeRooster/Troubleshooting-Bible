@@ -5,5 +5,6 @@ Works by reducing the size of one or more files into a single "zipped" folder. C
 - Saves space and simplifies file transfer
 - Supported by all platforms, making it cross-compatible
 
+As best practice, never use for sensitive data unless further encryption is applied. 
 
-*CompTIA A+*
+*CompTIA A+*, *Lenovo*
