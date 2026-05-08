@@ -8,3 +8,5 @@
 7. *PCMag*, www.pcmag.com
 8. Robinharwood. “Windows Server Management Documentation.” Microsoft Learn, learn.microsoft.com/en-us/windows-server/administration/manage-windows-server. Accessed 7 May 2026. 
 9. ArchWiki, wiki.archlinux.org/title/Main_page. Accessed 7 May 2026. 
+10. “Tech Glossary for Understanding Innovations.” Tech Glossary for Understanding Innovations | Lenovo US, www.lenovo.com/us/en/glossary/. Accessed 8 May 2026. 
+11. Karl-Bridge-Microsoft. “Windows App Development Documentation - Windows Apps.” Windows Apps | Microsoft Learn, learn.microsoft.com/en-us/windows/apps/. Accessed 8 May 2026. 
