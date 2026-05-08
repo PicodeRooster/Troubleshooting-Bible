@@ -6,3 +6,5 @@
 5. Red Hat. https://www.redhat.com/
 6. R-Tools Technology. *R-Studio*, www.r-studio.com
 7. *PCMag*, www.pcmag.com
+8. Robinharwood. “Windows Server Management Documentation.” Microsoft Learn, learn.microsoft.com/en-us/windows-server/administration/manage-windows-server. Accessed 7 May 2026. 
+9. ArchWiki, wiki.archlinux.org/title/Main_page. Accessed 7 May 2026. 
