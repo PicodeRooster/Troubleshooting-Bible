@@ -1,0 +1,24 @@
+You have Read access to media/pico/Coco/Troubleshooting Bible/assets/references/
+You have Read access to media/pico/Coco/Troubleshooting Bible/docs/Dictionary
+
+In /references:
+ - Read 'What is an Operating System_ _ IBM.pdf'
+ - Read "buntu Desktop.pdf"
+ - Read 'Red Hat Enterprise Linux for Workstations.pdf'
+Draft a wiki article about Operating Systems. 
+Mention features of each operating system as genenal explanations towards the main topic, not as highlights of each different OS. 
+Cite articles under "Sources" at bottom of document. 
+Output to "/media/pico/Coco/Troubleshooting Bible/assets/agents/Claude/Operating Systems.md"
+
+Read Server OS from /Dictionary
+Same tone you used for Operating Systems wiki, use it to draft a small, paragraph explaining a what is a Server OS. Output text here in chat.
+
+
+--------------------------------------------
+
+You have Read access to media/pico/Coco/Troubleshooting Bible/assets/references
+--------------------------------------------
+Read 'What is a Disk Partition.pdf'
+Read 'Time to Split_ How to Partition a Hard Drive in Windows _ PCMag.pdf'
+Create a wiki article on the topic, Disk Partition.md. Output to /media/pico/Coco/Troubleshooting Bible/assets/agents/Claude
+

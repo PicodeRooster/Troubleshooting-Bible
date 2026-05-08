@@ -20,7 +20,7 @@ When deploying an operating system, technicians a few options for installation:
 
 2. **Research and choose your target OS.** Identify your systems specs to select an OS that best meets compatibility with your hardware. Download the iso image from the official OS's manufucaturer website to your host machine.
 
-3. **Prepare your USB drive for flashing** Before installing an OS and or storing files, drives must be partitioned and formatted. During installation, choosing the correct format ensures a stable and accessible OS environment. Selecting the right file system affects performance, compatibility, and features like security or backup support. Then format the USB drive to give it a clean slate. This ensures the ISO data writes correctly and that the finished drive will actually boot. Skipping this step can cause silent write errors that only surface later when you try to boot from the drive.
+3. **Prepare your USB drive for flashing** Format the USB drive to give it a clean slate. This ensures the ISO data writes correctly and that the finished drive will actually boot. Skipping this step can cause silent write errors that only surface later when you try to boot from the drive.
 
 4.  **Flash OS to USB drive** Boot into your working OS and use it to flash the new OS image onto a USB flash drive. A popular tool to streamline the flashing process is [balenaEtcher](https://etcher.balena.io/). 
 
