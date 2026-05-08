@@ -14,3 +14,4 @@
 13. Apple Inc. “iOS.” Apple Developer, developer.apple.com/ios/. Accessed 8 May 2026.
 14. "Electrical Items - Fire Safety at Home." *London Fire Brigade*, www.london-fire.gov.uk/safety/the-home/electrical-items/.
 15. “Electrical Fire Safety.” Carnegie Mellon University | Environmental Health & Safety.
+16. "9 Measures for Electrostatic Discharge (ESD)." *Sanken Electric Co., Ltd.*, www.semicon.sanken-ele.co.jp/en/support/reliability/.
