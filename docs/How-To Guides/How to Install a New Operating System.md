@@ -4,6 +4,16 @@
  - Stable internet connection
  - A storage medium to perform a backup - storage will depend on size of data needed to be transfered, but for most systems, 500 GB is recommended on an external hard drive. 
 
+## Installation Methods
+When deploying an operating system, technicians a few options for installation:
+
+- **Clean Install:** Wipes the storage drive entirely and installs a fresh copy of the OS, ensuring no residual files, malware, or corrupted settings remain. This guide follows a *Clean Install.*
+
+- **Upgrade Install:** Keeps user files, applications and most settings intact while replacing the core operating system with a newer version. Faster and more convenient than clean install, but can carry over existing issues like registry corruption, outdated drivers or malware. Always check for sufficient disk space and back-up critical data before upgrading.
+
+- **Multiboot:** A user can have multiple operating systems on the same drive by partitioning the drive and choosing which system to load at startup through a boot menu. The downside is that it demands precise partitioning , bootloader configuration, and a clear understanding of each OSs requirements to avoid conflicts or accidental data loss.
+
+
 ## Steps
 
 1. **Backup data** Before starting, backup all important files to your selected storage medium.
