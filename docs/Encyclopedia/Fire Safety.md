@@ -82,8 +82,6 @@ When in doubt, disconnect the equipment and have the wiring or device inspected 
 
 ## Sources
 
-"Electrical Items - Fire Safety at Home." *London Fire Brigade*, www.london-fire.gov.uk/safety/the-home/electrical-items/.
-
-“Electrical Fire Safety.” Carnegie Mellon University | Environmental Health & Safety.
-
-Walker, Shawn. _CompTIA Study Guide A+: 220-1201 and 220-1202_. 3rd ed., 2025.
+ - "Electrical Items - Fire Safety at Home." *London Fire Brigade*, www.london-fire.gov.uk/safety/the-home/electrical-items/.
+ - “Electrical Fire Safety.” Carnegie Mellon University | Environmental Health & Safety.
+ - Walker, Shawn. _CompTIA Study Guide A+: 220-1201 and 220-1202_. 3rd ed., 2025.
