@@ -74,7 +74,17 @@ Apps crash on mobile for many of the same reasons they do on desktop — but the
 7. If none of these steps work, check for a carrier outage. If the outage is ruled out, escalate to hardware — antenna faults require physical inspection.
 
 ---
+## Battery Drain
+Battery drain, or rapid discharge, can result from:
 
+- Background applications using GPS, data or constant sync
+- Screen brightness and timeout settings
+- Rogue apps that prevent the device from entering sleep mode
+- Corrupted firmware or battery health degradation in older devices
+
+Tools like Android's Battery Usage panel or iOS's Battery Health can help isolate offenders. If the drain started recently, it's wise to check which apps were updated or installed in that time frame.
+
+---
 ## OS Update Failures
 
 Updates are intended to improve performance and patch vulnerabilities, but failed updates can produce boot loops, broken apps, or a device stuck mid-install.

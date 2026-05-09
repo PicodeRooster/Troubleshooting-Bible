@@ -1,3 +1,4 @@
+#!/bin/bash
 read -p "Enter a name for this vocabulary entry: " -r title
 read -p "Enter target directory (press Enter for default): " -r dir
 
