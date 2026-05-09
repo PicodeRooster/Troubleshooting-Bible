@@ -8,4 +8,5 @@
 
 **Note**:  If the shared folder becomes inaccessible after reboot, check if “Reconnect at login” was enabled or if the mapped drive is dependent on VPN access.
 
-*CompTIA A+*
+## Sources
+Walker, Shawn. _CompTIA Study Guide A+: 220-1201 and 220-1202_. 3rd ed., 2025.

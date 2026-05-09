@@ -15,3 +15,4 @@
 14. "Electrical Items - Fire Safety at Home." *London Fire Brigade*, www.london-fire.gov.uk/safety/the-home/electrical-items/.
 15. “Electrical Fire Safety.” Carnegie Mellon University | Environmental Health & Safety.
 16. "9 Measures for Electrostatic Discharge (ESD)." *Sanken Electric Co., Ltd.*, www.semicon.sanken-ele.co.jp/en/support/reliability/.
+17.  Atlassian. "Introduction to Jira Work Items." *Atlassian.* https://www.atlassian.com/software/jira/guides/issues/overview

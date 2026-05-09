@@ -8,7 +8,7 @@ The two dominant platforms are **Android** (open source, developed by Google) an
 
 ## App Crashes
 
-Apps crash on mobile for many of the same reasons they do on desktop — but the remediation path is different.
+Apps crashes on mobile for many of the same reasons they do on desktop — but the remediation path is different.
 
 **Common causes:**
 - App version is outdated and incompatible with the current OS
