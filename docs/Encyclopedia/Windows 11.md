@@ -230,3 +230,7 @@ Designed to be more intuitive and user friendly, about 80% of what you use daily
  - **Network & internet:**  Manage Wi-Fi and Ethernet connections, enable or disable network adapters, configure IP settings, set up a proxy, and launch troubleshooters.
  - **Troubleshoot:** Designed for fast automatic detection of issues. Runs diagnostics, applies applicable fixes and logs the outcome - great for first line solutions. This tool covers internet and network problems, printer connectivity, audio playback failures, Windows Update errors and Bluetooth and peripheral troubleshooting.
  - See your device info, customize OS experience, change Accessibility settings, etc. 
+---
+### Sources
+
+Walker, Shawn. _CompTIA Study Guide A+: 220-1201 and 220-1202_. 3rd ed., 2025.
