@@ -7,10 +7,7 @@ Containerization creates two logically isolated zones within a mobile device:
 
 This approach ensures that corporate data stays within its secure bubble - even if the user installs games, social apps, or personal cloud backups. Containers can block data sharing between zones, prevent copy-paste, and enforce independent password rules. 
 
-  
-
 Corporate policy enforcement goes hand in hand with containerization. Through MDM, administrators can: 
-  
 
 - Require specific apps for business tasks
 - Restrict access to corporate resources based on device posture
@@ -23,4 +20,3 @@ These strategies are especially valuable in BYOD scenarios, where employers must
 Containerization is the mobile answer to “zero trust” - never assume, always verify, and keep business data fenced off no matter what the user is doing elsewhere on the device.
 
 *CompTIA A+*
-Corporate policy enforcement 

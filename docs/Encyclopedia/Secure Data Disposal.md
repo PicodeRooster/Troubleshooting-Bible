@@ -16,4 +16,7 @@ One of the most important parts of IT is the secure disposal of data. Mishandled
 
 Organizations must follow documented policies for device disposal: verification logs, chain of custody records, and proper environmental practices. In regulated industries, failure to properly destroy data can lead to heavy fines — or worse, data breach traced back to a discarded drive.
 
+---
+## Sources
+
 Walker, Shawn. _CompTIA Study Guide A+: 220-1201 and 220-1202_. 3rd ed., 2025.

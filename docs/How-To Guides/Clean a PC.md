@@ -1,4 +1,4 @@
-# How To Clean a PC
+# Clean a PC
 
 Regular physical cleaning is a core preventive maintenance task for any IT technician. Dust accumulation blocks airflow, causes thermal throttling, and accelerates hardware failure. In open-floor or industrial environments, cleaning intervals should be shortened accordingly. This guide covers a full physical cleaning of a desktop PC from a technician's perspective.
 
@@ -36,7 +36,7 @@ If the machine has been running in an out-of-range environment, note it in your 
 2. **Discharge residual power** by pressing the power button several times after unplugging.
 3. **Ground yourself.** Wear an anti-static wrist strap connected to a grounded surface, or touch a grounded metal object before handling components. Avoid wool or synthetic fabrics.
 4. Work in a **well-ventilated area** — ideally outside or near an open window. Blowing dust indoors will redistribute it onto the machine and surrounding equipment.
-5. **Document the machine's state** before disassembly with photos, especially cable routing and component seating. This is particularly important if the machine belongs to someone else or will be returned to a shared environment.
+5. **Document the machine's state** b# Metadataefore disassembly with photos, especially cable routing and component seating. This is particularly important if the machine belongs to someone else or will be returned to a shared environment.
 
 ---
 
@@ -111,7 +111,7 @@ Thermal paste degrades over time and should be replaced every **2–3 years**, o
 2. Do **not** spread it manually — cooler pressure will distribute it evenly.
 3. Less is more. Excess paste can migrate onto the socket and cause damage.
 
-**Reinstall the cooler:**
+**Reinstall the cooler:**# Metadata
 1. Lower it straight down onto the CPU, aligning with mounting points.
 2. Tighten mounting screws in an **X pattern** (diagonal corners), gradually and evenly.
 3. Do not overtighten. Snug pressure is the goal.
@@ -152,7 +152,7 @@ Before closing the case, verify:
 ### 12. Test Boot
 
 - Reattach side panels loosely — do not fully secure until the system is confirmed working.
-- Reconnect power and peripherals.
+- Reconnect power and peripherals.# Metadata
 - Power on and confirm POST completes.
 - Enter BIOS and check CPU temperature at idle. Expected range: **30–45°C**.
 - Listen for unusual noises (clicking, grinding, rattling).

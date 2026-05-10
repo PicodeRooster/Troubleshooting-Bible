@@ -16,3 +16,4 @@
 15. “Electrical Fire Safety.” Carnegie Mellon University | Environmental Health & Safety.
 16. "9 Measures for Electrostatic Discharge (ESD)." *Sanken Electric Co., Ltd.*, www.semicon.sanken-ele.co.jp/en/support/reliability/.
 17.  Atlassian. "Introduction to Jira Work Items." *Atlassian.* https://www.atlassian.com/software/jira/guides/issues/overview
+18. Bluetooth SIG. "Bluetooth Technology Overview." *Bluetooth® Technology Website.* https://www.bluetooth.com/learn-about-bluetooth/tech-overview
