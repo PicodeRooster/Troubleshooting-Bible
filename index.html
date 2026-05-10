@@ -1,10 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Troubleshooting Bible</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Troubleshooting Bible</title>
+
+  <!-- Tag 1: LOAD the marked.js library -->
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
 </head>
 <body>
+
+  <!-- This is where the markdown content will appear -->
+  <div id="article">Loading...</div>
+
+  <!-- Tag 2: RUN your code (marked.js is already loaded by now) -->
+  <script>
+    fetch("docs/Introduction.md")
+      .then(r => r.text())
+      .then(md => {
+        document.getElementById("article").innerHTML = marked.parse(md);
+      });
+  </script>
+
 </body>
 </html>
