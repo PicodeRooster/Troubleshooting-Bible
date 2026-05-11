@@ -23,28 +23,35 @@
   @font-face {
       font-family: 'Figtree';
       src: url('assets/fonts/Figtree-VariableFont_wght.ttf') format('truetype');
-      font-weight: 600;
-      font-style: bold;
 }
 
   @font-face {
       font-family: 'Outfit';
-      src: url('assets/fonts/Outfit-ExtraLight.ttf') format('truetype');
-      font-weight: normal;
-      font-style: normal;
+      src: url('assets/fonts/Outfit-SemiBold.ttf') format('truetype');
+      font-style: bold;
 }
 
   body{
     font-family: 'Figtree', sans-serif;
+    background-color: rgb(140, 154, 189);
 }
 
   h1{
     font-size: 6em;
+    background-color: rgb(250, 251, 253);
+    color: rgb(35, 45, 75);
+    margin-left: 5%;
+    margin-bottom: 65px;
 }
 
 nav {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  background-color: rgb(48, 58, 151);
+  font-family: 'Outfit';
+  margin-bottom: 0.5cap;
+  color: aliceblue;
+    border-radius: 3px;
 }
 
   nav > ul{
@@ -53,14 +60,20 @@ nav {
   }
 
   nav > ul > li {
-  padding: 10px;
+  padding-left: 75px;
   }
 
   #search{
-    position: absolute;
+    position: relative;
     top: 5px;
     right: 5px;
   }
+
+#article {
+  background-color: rgb(250, 251, 253);
+  border-radius: 3px;
+  padding: 16px;
+}
 
 </style>
   <script src="node_modules/lunr/lunr.js"></script>
@@ -75,7 +88,7 @@ nav {
     <li>Resources</li>
     <li>Bibliography</li>
   </ul>
-  <div id="search"> 
+    <div id="search"> 
     <input id="search-input" type="text" placeholder="Search...">
     <ul id="search-results"></ul>
   </div>
