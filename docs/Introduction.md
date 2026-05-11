@@ -12,6 +12,11 @@ The Bible is organized into three entry types:
  - Encyclopedia Entries — Deep-dive reference articles on specific technologies, threat types, system behaviors, and diagnostic concepts. Understand not just the what, but the why.
  - How-To Guides — Step-by-step procedures for real tasks: configuration, remediation, triage, and more. Follow the steps, solve the problem, move on.
 
+| Term | Type | Category |
+|------|------|----------|
+| Logic Bomb | Encyclopedia | Security |
+| MFA | Vocabulary | Security |
+| Reset a User Password | How-To | Account Management |
 
 ## How to Use It
 Open index.html in any modern browser. No server required, no internet connection needed, no installation. Use the built-in search to find entries by keyword, or browse by category from the index.

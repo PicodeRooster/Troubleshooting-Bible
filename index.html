@@ -5,43 +5,82 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Troubleshooting Bible</title>
 <style>
-        @font-face {
-        font-family: 'Figtree';
-        src: url('assets/fonts/Figtree-VariableFont_wght.ttf') format('truetype');
-        font-weight: normal;
-        font-style: normal;
+  @font-face {
+      font-family: 'Figtree';
+      src: url('assets/fonts/Figtree-VariableFont_wght.ttf') format('truetype');
+      font-weight: normal;
+      font-style: normal;
 }
 
-    @font-face {
-        font-family: 'Outfit';
-        src: url('assets/fonts/Outfit-Black.ttf') format('truetype');
-        font-weight: bold;
-        font-style: bold;
+  @font-face {
+      font-family: 'Figtree';
+      src: url('assets/fonts/Figtree-VariableFont_wght.ttf') format('truetype');
+      font-weight: 800;
+      font-style: bolder;
+
 }
 
-    @font-face {
-        font-family: 'Outfit';
-        src: url('assets/fonts/Outfit-ExtraLight.ttf') format('truetype');
-        font-weight: normal;
-        font-style: normal;
+  @font-face {
+      font-family: 'Figtree';
+      src: url('assets/fonts/Figtree-VariableFont_wght.ttf') format('truetype');
+      font-weight: 600;
+      font-style: bold;
 }
-    body{
-        font-family: 'Figtree', sans-serif;
-    }
 
-    h1{
-        color: blue;
-    }
+  @font-face {
+      font-family: 'Outfit';
+      src: url('assets/fonts/Outfit-ExtraLight.ttf') format('truetype');
+      font-weight: normal;
+      font-style: normal;
+}
+
+  body{
+    font-family: 'Figtree', sans-serif;
+}
+
+  h1{
+    font-size: 6em;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+  nav > ul{
+    display: flex;
+    list-style: none
+  }
+
+  nav > ul > li {
+  padding: 10px;
+  }
+
+  #search{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+  }
+
 </style>
+  <script src="node_modules/lunr/lunr.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-
 </head>
 <body>
-
-  <!-- This is where the markdown content will appear -->
+<nav>
+  <ul>
+    <li>Dictionary</li>
+    <li>Encyclopedia</li>
+    <li>How-To Guides</li>
+    <li>Resources</li>
+    <li>Bibliography</li>
+  </ul>
+  <div id="search"> 
+    <input id="search-input" type="text" placeholder="Search...">
+    <ul id="search-results"></ul>
+  </div>
+</nav>
   <div id="article">Loading...</div>
-
-  <!-- Tag 2: RUN your code (marked.js is already loaded by now) -->
   <script>
     fetch("docs/Introduction.md")
       .then(r => r.text())
@@ -49,6 +88,31 @@
         document.getElementById("article").innerHTML = marked.parse(md);
       });
   </script>
+  <script>
+    let index, documents;
 
+fetch("docs/Introduction.md")
+  .then(r => r.text())
+  .then(text => {
+    documents = [{ id: "Introduction", body: text }];
+
+    index = lunr(function () {
+      this.ref("id");
+      this.field("body");
+      documents.forEach(doc => this.add(doc));
+    });
+  });
+  </script>
+  <!-- When CSS and articles are ready, load to find in page
+  <script>
+    document.getElementById("search-input").addEventListener("input", function () {
+  const results = index ? index.search(this.value) : [];
+  const list = document.getElementById("search-results");
+  list.innerHTML = results
+    .map(r => `<li>${r.ref}</li>`)
+    .join("");
+});
+  </script>
+  -->
 </body>
 </html>
