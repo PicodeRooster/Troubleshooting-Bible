@@ -45,15 +45,16 @@
 }
 
 nav {
-  display: grid;
-  grid-template-columns: 1fr;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   background-color: rgb(48, 58, 151);
   font-family: 'Outfit';
   margin-bottom: 0.5cap;
   color: aliceblue;
   border-radius: 3px;
 }
-/**/
+
   nav > ul{
     display: flex;
     list-style: none;
@@ -62,20 +63,12 @@ nav {
   nav > ul > li {
   padding: 20px
   }
-/*
-  .search-box {
-    display: inline-flex;
-    background-color: blue;
-    height: 22px;
-    width: 300px
-  }
-*/
 
   .search-box {
-    position: relative;
     background-color: blue;
     height: 22px;
-    width: 218px
+    width: 218px;
+    margin-right: 16px;
   }
 
 #article {
@@ -109,13 +102,13 @@ input:focus{
     <li>How-To Guides</li>
     <li>Resources</li>
     <li>Bibliography</li>
-    </ul>
+  </ul>  
     
     <span class="search-box">
     <input id="search-input" type="text" placeholder="Search...">
     <ul id="search-results"></ul>
-   <!--
-    <img src="assets/images/icons/magnifying-glass.svg">-->
+
+    <img src="assets/images/icons/magnifying-glass.svg" width="10px">
     </span>
   
 </nav>
