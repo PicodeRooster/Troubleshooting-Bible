@@ -45,6 +45,7 @@
 }
 
 nav {
+  overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -64,13 +65,15 @@ nav {
   padding: 20px
   }
 
-  .search-box {
+.search-box {
     background-color: blue;
-    height: 22px;
-    width: 218px;
     margin-right: 16px;
-  }
-
+}
+/*
+img {
+  display: flex; 
+}
+*/
 #article {
   background-color: rgb(250, 251, 253);
   border-radius: 3px;
@@ -105,10 +108,11 @@ input:focus{
   </ul>  
     
     <span class="search-box">
+    <form>
     <input id="search-input" type="text" placeholder="Search...">
     <ul id="search-results"></ul>
-
-    <img src="assets/images/icons/magnifying-glass.svg" width="10px">
+    <button><img src="assets/images/icons/magnifying-glass.svg" width="10px"></button>
+    </form>
     </span>
   
 </nav>
