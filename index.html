@@ -125,15 +125,16 @@ li:hover{
   
 </nav>
 
-
   <div id="article">Loading...</div>
   <script>
+    //fetch("docs/Dictionary/AV.md") -- This works for example
     fetch("docs/Introduction.md")
       .then(r => r.text())
       .then(md => {
         document.getElementById("article").innerHTML = marked.parse(md);
       });
   </script>
+  <!--
   <script>
     let index, documents;
 
@@ -149,7 +150,7 @@ fetch("docs/Introduction.md")
     });
   });
   </script>
-  <!-- When CSS and articles are ready, load to find in page
+   When CSS and articles are ready, load to find in page
   <script>
     document.getElementById("search-input").addEventListener("input", function () {
   const results = index ? index.search(this.value) : [];
