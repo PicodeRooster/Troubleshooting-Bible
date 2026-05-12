@@ -45,34 +45,56 @@
 }
 
 nav {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr;
   background-color: rgb(48, 58, 151);
   font-family: 'Outfit';
   margin-bottom: 0.5cap;
   color: aliceblue;
-    border-radius: 3px;
+  border-radius: 3px;
 }
-
+/**/
   nav > ul{
     display: flex;
-    list-style: none
+    list-style: none;
   }
 
   nav > ul > li {
-  padding-left: 75px;
+  padding: 20px
   }
+/*
+  .search-box {
+    display: inline-flex;
+    background-color: blue;
+    height: 22px;
+    width: 300px
+  }
+*/
 
-  #search{
+  .search-box {
     position: relative;
-    top: 5px;
-    right: 5px;
+    background-color: blue;
+    height: 22px;
+    width: 218px
   }
 
 #article {
   background-color: rgb(250, 251, 253);
   border-radius: 3px;
   padding: 16px;
+}
+
+input {
+  border: 2px solid rgb(35, 45, 75);
+}
+
+input:focus{
+  border: 2px solid rgb(95, 167, 235);
+  outline: none;
+}
+
+.selected {
+    background-color: brown;
 }
 
 </style>
@@ -82,17 +104,23 @@ nav {
 <body>
 <nav>
   <ul>
-    <li>Dictionary</li>
+    <li class="selected">Dictionary</li>
     <li>Encyclopedia</li>
     <li>How-To Guides</li>
     <li>Resources</li>
     <li>Bibliography</li>
-  </ul>
-    <div id="search"> 
+    </ul>
+    
+    <span class="search-box">
     <input id="search-input" type="text" placeholder="Search...">
     <ul id="search-results"></ul>
-  </div>
+   <!--
+    <img src="assets/images/icons/magnifying-glass.svg">-->
+    </span>
+  
 </nav>
+
+
   <div id="article">Loading...</div>
   <script>
     fetch("docs/Introduction.md")
