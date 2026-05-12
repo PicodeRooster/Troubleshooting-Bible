@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Troubleshooting Bible</title>
 <style>
+  * {box-sizing: border-box;}
+  
   @font-face {
       font-family: 'Figtree';
       src: url('assets/fonts/Figtree-VariableFont_wght.ttf') format('truetype');
@@ -89,9 +91,14 @@ input:focus{
   outline: none;
 }
 
-.selected {
-    background-color: brown;
+li:hover{
+  color: rgb(255, 162, 86);
 }
+/*
+.selected {
+  background-color: rgb(77, 106, 164);
+}
+    */
 
 </style>
   <script src="node_modules/lunr/lunr.js"></script>
@@ -100,7 +107,8 @@ input:focus{
 <body>
 <nav>
   <ul>
-    <li class="selected">Dictionary</li>
+    <li class="selected">Home</li>
+    <li>Dictionary</li>
     <li>Encyclopedia</li>
     <li>How-To Guides</li>
     <li>Resources</li>
