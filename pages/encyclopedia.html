@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Encyclopedia</title>
+  <script src="node_modules/lunr/lunr.js"></script>
+  <script src="node_modules/marked/lib/marked.umd.js"></script>
+</head>
+<body>
+ <nav class="nav-bar">
+  <ul>
+    <a href="../index.html"><li class="navigation">Home</li></a>
+    <a href= "./dictionary.html"><li class="navigation">Dictionary</li><a>
+    <a href="./encyclopedia.html"><li class="navigation">Encyclopedia</li></a>
+    <a href="./how-to-guides.html"><li class="navigation">How-To Guides</li></a>
+    <a href="./resources.html"><li class="navigation">Resources</li></a>
+    <a href="./bibliography.html"><li class="navigation">Bibliography</li></a>
+  </ul>  
+    
+    <span class="search-box">
+    <form>
+    <input id="search-input" type="text" placeholder="Search...">
+    <ul id="search-results"></ul>
+    <button><img src="../../assets/images/icons/magnifying-glass.svg" width="10px"></button>
+    </form>
+    </span>
+  
+</nav>
+
+  <div id="article">Loading...</div>
+  <script>
+    //fetch("docs/Dictionary/AV.md") -- This works for example
+    fetch("docs/Introduction.md")
+      .then(r => r.text())
+      .then(md => {
+        document.getElementById("article").innerHTML = marked.parse(md);
+      });
+  </script>
+  <!--
+  <script>
+    let index, documents;
+
+fetch("docs/Introduction.md")
+  .then(r => r.text())
+  .then(text => {
+    documents = [{ id: "Introduction", body: text }];
+
+    index = lunr(function () {
+      this.ref("id");
+      this.field("body");
+      documents.forEach(doc => this.add(doc));
+    });
+  });
+  </script>
+   When CSS and articles are ready, load to find in page
+  <script>
+    document.getElementById("search-input").addEventListener("input", function () {
+  const results = index ? index.search(this.value) : [];
+  const list = document.getElementById("search-results");
+  list.innerHTML = results
+    .map(r => `<li>${r.ref}</li>`)
+    .join("");
+});
+  </script>
+  -->
+</body>
+</html>
