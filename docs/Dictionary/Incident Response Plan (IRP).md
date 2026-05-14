@@ -1,3 +1,9 @@
+---
+title: Enable Secure and Effective Permissions in Windows
+type: encyclopedia
+tags: [windows, NTFS, permissions, EFS, file-system, security]
+sources: [CompTIA A+]
+---
 When a security incident occurs, panic is the enemy of precision. Having a structured incident response plan (IRP) ensures that everyone knows what to do, when to do it, and in what order. The classic response cycle is divided into four key phases:
 
 1. **Identify** - Recognize that something is wrong. This could come from user reports, antivirus alerts, intrusion detection systems, or observed anomalies. 

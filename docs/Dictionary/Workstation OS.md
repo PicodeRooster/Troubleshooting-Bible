@@ -1,3 +1,9 @@
+---
+title: Enable Secure and Effective Permissions in Windows
+type: encyclopedia
+tags: [windows, NTFS, permissions, EFS, file-system, security]
+sources: [CompTIA A+]
+---
 An operating system designed for end-user productivity, optimized for GUIs, software compatibility and user interactivity. Prioritizes responsiveness, application support and local resource management.  
 
       *Examples:*  

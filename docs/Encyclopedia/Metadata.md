@@ -1,3 +1,9 @@
+---
+title: Enable Secure and Effective Permissions in Windows
+type: encyclopedia
+tags: [windows, NTFS, permissions, EFS, file-system, security]
+sources: [CompTIA A+]
+---
 # Metadata
 
 **Metadata** is information that describes a data point or data set — such as author, creation date, or file size — that is separate from the content of the data itself. The simplest definition is "data about data." For example, a table of recent customer orders constitutes a data set, while information about that table — such as who owns it or what type of file it is — constitutes the metadata.

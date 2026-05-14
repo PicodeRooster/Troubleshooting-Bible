@@ -1,3 +1,9 @@
+---
+title: Enable Secure and Effective Permissions in Windows
+type: encyclopedia
+tags: [windows, NTFS, permissions, EFS, file-system, security]
+sources: [CompTIA A+]
+---
 A standard in the modern IT toolkit allowing technicians to run a long list of troubleshooting and maintenance on other devices from anywhere around the globe. However, this ability also introduces risks if not managed with care.
 
 Remote Support Etiquette: Preserves user privacy and preserves reliable reputation.

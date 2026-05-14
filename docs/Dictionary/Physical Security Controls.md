@@ -1,3 +1,9 @@
+---
+title: Enable Secure and Effective Permissions in Windows
+type: encyclopedia
+tags: [windows, NTFS, permissions, EFS, file-system, security]
+sources: [CompTIA A+]
+---
 Physical access is just as important to address as software threats. Physical controls form the first layer of a robust security model. 
 
 **Locks:** Most basic, but effective. Server racks and data centers should be locked with access limited to authorized personnel. Electronic locks can be paired with access locks and alert systems for better oversight. 

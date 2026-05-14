@@ -1,3 +1,4 @@
+#!/bin/bash
 cat << description
 Copy latest screenshot from PC to destination folder.
 description

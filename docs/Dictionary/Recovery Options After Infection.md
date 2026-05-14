@@ -1,3 +1,9 @@
+---
+title: Enable Secure and Effective Permissions in Windows
+type: encyclopedia
+tags: [windows, NTFS, permissions, EFS, file-system, security]
+sources: [CompTIA A+]
+---
 Malware removal does not immediately return the system to full stability. A strong post-infection recovery plan includes:
 
 - System restore: when available, roll back to point before infection. Reverts system files and settings without affecting user data.

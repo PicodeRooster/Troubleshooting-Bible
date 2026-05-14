@@ -1,3 +1,9 @@
+---
+title: Enable Secure and Effective Permissions in Windows
+type: encyclopedia
+tags: [windows, NTFS, permissions, EFS, file-system, security]
+sources: [CompTIA A+]
+---
 Restores a device to its original out-of-box configuration by reinstalling the OEM image and removing user files. Commonly used to wipe personal data before resale or to resolve unresolved software issues. Use as a last resort for software problems.
                   
   Limitation: A factory reset does not guarantee complete data sanitization. It may not fully erase all partitions or remove sensitive remnants. On Android

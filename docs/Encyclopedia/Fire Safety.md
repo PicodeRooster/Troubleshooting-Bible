@@ -1,3 +1,9 @@
+---
+title: Enable Secure and Effective Permissions in Windows
+type: encyclopedia
+tags: [windows, NTFS, permissions, EFS, file-system, security]
+sources: [CompTIA A+]
+---
 # Fire Hazards and Safety Around Electronics
 
 Electrical items are among the leading causes of fire in both homes and workplaces. From overloaded power strips and counterfeit chargers to uncovered junction boxes and frayed cables, many electrical fire risks are preventable with basic awareness and good habits. The consequences of ignoring them — equipment loss, injury, or death — make this one of the most important areas of safety for anyone working with electronics.

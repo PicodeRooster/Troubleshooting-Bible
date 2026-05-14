@@ -1,3 +1,9 @@
+---
+title: Enable Secure and Effective Permissions in Windows
+type: encyclopedia
+tags: [windows, NTFS, permissions, EFS, file-system, security]
+sources: [CompTIA A+]
+---
 # Ticket
 
 In information technology, a **ticket** is a formal record created to document, track, and manage a unit of work — most commonly a technical problem, service request, or project task — from the moment it is reported through to its resolution. Tickets are the foundational unit of IT support and project management workflows, giving teams a structured, persistent log of what needs to be done, who is doing it, and what has already been tried.

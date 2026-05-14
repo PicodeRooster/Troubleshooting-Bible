@@ -1,3 +1,9 @@
+---
+title: Enable Secure and Effective Permissions in Windows
+type: encyclopedia
+tags: [windows, NTFS, permissions, EFS, file-system, security]
+sources: [CompTIA A+]
+---
 The process of transferring a ticket to someone with deeper knowledge or authority when a problem exceeds a technician's scope. It follows a chain of command structured around issue severity, ensuring that underlying problems are addressed by the right person at the right level.
 
 A strong support team has this hierarchy in place as a contingency. As troubleshooting methods are exhausted, the problem is elevated to the next body of expertise until a solution is found — whether that is a Tier 2 technician, a subject matter specialist, or even the manufacturer directly. The process relies on collaboration to patch knowledge gaps between individuals and across departments.

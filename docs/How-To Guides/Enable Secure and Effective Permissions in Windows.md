@@ -1,3 +1,9 @@
+---
+title: Enable Secure and Effective Permissions in Windows
+type: how-to
+tags: [windows, NTFS, permissions, EFS, file-system, security]
+sources: [CompTIA A+]
+---
 The process ensuring access controls are established with precision, security and policy enforcements in mind. In Windows, NFTS and Share are two main permission systems that work in unison, often overlapping, but have very specific differences. When both NTFS and Share permissions have been applied, the most restrictive of the two takes precedence. If NTFS allows full control, but Share only allows Read access, Read is all the user gets. 
 
 **NTFS:** These files operate at the file system level, applied directly to files and folders stored on NTFS-formatted drives. Permissions stay with the data, even if the file is moved to a different folder on the same partition. Includes permissions like read, write, modify, execute and take full control of a file or directory. 

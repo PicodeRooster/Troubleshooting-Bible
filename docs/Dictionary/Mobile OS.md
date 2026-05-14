@@ -1,3 +1,9 @@
+---
+title: Enable Secure and Effective Permissions in Windows
+type: encyclopedia
+tags: [windows, NTFS, permissions, EFS, file-system, security]
+sources: [CompTIA A+]
+---
 Streamlined for touchscreen interfaces, battery efficiency and app-based environments. They restrict background processes to preserve resources and use sandboxing to enhance security. Mobile OSs are deeply integrated with hardware, cellular networks and app ecosystems, offering simplified but secure computing experience.  
       *Examples:*  
       *Android, iOS*

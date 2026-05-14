@@ -1,3 +1,9 @@
+---
+title: Enable Secure and Effective Permissions in Windows
+type: how-to
+tags: [windows, NTFS, permissions, EFS, file-system, security]
+sources: [CompTIA A+]
+---
  Mapping drives makes remote folders appear as a local disk in File Explorer, useful for accessing shared centralized data.
  
 1. Open File Explorer.

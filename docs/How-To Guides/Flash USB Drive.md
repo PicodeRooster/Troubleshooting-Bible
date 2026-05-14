@@ -1,3 +1,9 @@
+---
+title: Enable Secure and Effective Permissions in Windows
+type: how-to
+tags: [windows, NTFS, permissions, EFS, file-system, security]
+sources: [CompTIA A+]
+---
 # Flash a Bootable USB Drive for Windows
 
 A bootable USB drive is one of the most useful tools you can have on hand when managing computers. Whether you're doing a fresh Windows install, recovering a system that won't boot, or running a diagnostic tool, a properly flashed USB drive gets the job done quickly and reliably.

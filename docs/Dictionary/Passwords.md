@@ -1,3 +1,9 @@
+---
+title: Enable Secure and Effective Permissions in Windows
+type: encyclopedia
+tags: [windows, NTFS, permissions, EFS, file-system, security]
+sources: [CompTIA A+]
+---
 
 Passwords are the first, and sometimes only, line of defense. They remain one of the weakest points in most organizations' security posture. Weak, reused, poorly protected passwords are responsible for a staggering number of breaches each year. They remain a common screen lock method that can be a strong line of defense when good policies are enforced, but are slower to enter and more tedious for users. 
 

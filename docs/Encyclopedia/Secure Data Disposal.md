@@ -1,3 +1,9 @@
+---
+title: Enable Secure and Effective Permissions in Windows
+type: encyclopedia
+tags: [windows, NTFS, permissions, EFS, file-system, security]
+sources: [CompTIA A+]
+---
 Every device eventually reaches an end of life cycle. Before leaving control, ensure that all sensitive data is completely and truly gone. Deleting files and formatting drive is not sufficient as sophisticated tools can recover data that is not properly destroyed. When a device goes, the data must go with it. Destroy it deliberately and document the process.
 
 One of the most important parts of IT is the secure disposal of data. Mishandled devices can expose companies to breaches, fines and reputation damage. This is part of technicians lifecycle responsibility for all devices. Knowing the right methods for wiping data and when to apply them is part of a technicians job duties.

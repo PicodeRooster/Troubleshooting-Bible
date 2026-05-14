@@ -1,3 +1,9 @@
+---
+title: Enable Secure and Effective Permissions in Windows
+type: how-to
+tags: [windows, NTFS, permissions, EFS, file-system, security]
+sources: [CompTIA A+]
+---
 # Clean a PC
 
 Regular physical cleaning is a core preventive maintenance task for any IT technician. Dust accumulation blocks airflow, causes thermal throttling, and accelerates hardware failure. In open-floor or industrial environments, cleaning intervals should be shortened accordingly. This guide covers a full physical cleaning of a desktop PC from a technician's perspective.

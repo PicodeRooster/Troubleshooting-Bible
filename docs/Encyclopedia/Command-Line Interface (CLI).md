@@ -1,3 +1,9 @@
+---
+title: Enable Secure and Effective Permissions in Windows
+type: encyclopedia
+tags: [windows, NTFS, permissions, EFS, file-system, security]
+sources: [CompTIA A+]
+---
 # Command-Line Interface (CLI)
 
 A **command-line interface (CLI)** is a text-based mechanism for interacting with a computer's operating system by typing commands directly into a terminal or shell. It is one of the two primary ways users communicate with a computer — the other being a **graphical user interface (GUI)**, which relies on visual elements such as icons, windows, and menus. All major operating systems — including Windows, macOS, and Linux — provide a CLI for direct, keyboard-driven system interaction.

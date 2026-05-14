@@ -1,3 +1,9 @@
+---
+title: Enable Secure and Effective Permissions in Windows
+type: encyclopedia
+tags: [windows, NTFS, permissions, EFS, file-system, security]
+sources: [CompTIA A+]
+---
 # Backing Up Data
 
 Backup and restore refers to the technologies and practices that ensure redundant copies of data and applications are stored on a secondary device. These copies provide a reliable means of recovering critical information and sustaining operations when faced with a disruption — whether caused by a power outage, cyberattack, human error, or disaster.

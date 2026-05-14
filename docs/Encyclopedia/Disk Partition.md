@@ -1,3 +1,9 @@
+---
+title: Enable Secure and Effective Permissions in Windows
+type: encyclopedia
+tags: [windows, NTFS, permissions, EFS, file-system, security]
+sources: [CompTIA A+]
+---
 # Disk Partition
 
 A **disk partition** is a logically separated region of a physical storage drive that the operating system (OS) treats as an independent volume. Dividing a drive into partitions — a process called **disk partitioning**, sometimes referred to as disk slicing — allows a single physical device to function as though it were multiple distinct drives. Each partition can hold its own file system, and the OS manages them independently even though they share the same hardware.

@@ -1,3 +1,9 @@
+---
+title: Enable Secure and Effective Permissions in Windows
+type: how-to
+tags: [windows, NTFS, permissions, EFS, file-system, security]
+sources: [CompTIA A+]
+---
 ## Pre-Requisites
 
  - A brand new USB flash drive, or one you are willing to lose the data, of at least 8GB storage.

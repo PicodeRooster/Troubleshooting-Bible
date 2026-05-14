@@ -1,3 +1,9 @@
+---
+title: Enable Secure and Effective Permissions in Windows
+type: encyclopedia
+tags: [windows, NTFS, permissions, EFS, file-system, security]
+sources: [CompTIA A+]
+---
 # Electrostatic Discharge Safety
 
 Electrostatic discharge (ESD) is the sudden flow of electric current that occurs when two differently charged objects come into contact. It is a high-risk factor in electronics work: ESD can destroy or degrade sensitive components instantly, and it occurs even when a device is powered off, since residual charge in components is sufficient to cause damage. A safe ESD target for environments handling semiconductor devices is a static electricity level of 100 V or less.

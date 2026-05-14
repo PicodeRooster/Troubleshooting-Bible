@@ -1,3 +1,9 @@
+---
+title: Enable Secure and Effective Permissions in Windows
+type: encyclopedia
+tags: [windows, NTFS, permissions, EFS, file-system, security]
+sources: [CompTIA A+]
+---
 # Operating Systems
 
 An **operating system (OS)** is a collection of software that manages a computer's hardware and applications by allocating resources, including memory, CPU, input/output devices, and file storage. Every computer system — from mainframes to desktops to mobile devices — requires at least one operating system to perform tasks, run applications, and interact with hardware.

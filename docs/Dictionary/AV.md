@@ -1,3 +1,9 @@
+---
+title: Enable Secure and Effective Permissions in Windows
+type: encyclopedia
+tags: [windows, NTFS, permissions, EFS, file-system, security]
+sources: [CompTIA A+]
+---
 Antivirus or Antimalware are tools designed to detect, quarantine and remove malicious code. 
 
 **Real-time protection:**  system is actively scanning incoming files, monitoring behavior, and blocking threats before they cause damage. 

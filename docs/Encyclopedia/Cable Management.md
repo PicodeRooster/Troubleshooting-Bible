@@ -1,3 +1,9 @@
+---
+title: Enable Secure and Effective Permissions in Windows
+type: encyclopedia
+tags: [windows, NTFS, permissions, EFS, file-system, security]
+sources: [CompTIA A+]
+---
 # Cable Management
 
 Poor cable management is more than an eyesore. Tangled, unorganized cables obstruct airflow in systems and enclosures, leading to overheating. They create tripping hazards in office spaces and data centers. And when something goes wrong, a rat's nest of unlabeled wires makes troubleshooting and maintenance significantly harder. Good cable management prevents all of this — and most of what it takes costs very little.

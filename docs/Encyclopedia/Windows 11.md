@@ -1,3 +1,9 @@
+---
+title: Enable Secure and Effective Permissions in Windows
+type: encyclopedia
+tags: [windows, NTFS, permissions, EFS, file-system, security]
+sources: [CompTIA A+]
+---
 The most widely used desktop OS, known for its extensive application compatibility, strong enterprise features, and gaming support. Ideal for mixed-use environments but can be resource-intensive and more vulnerable to malware if not secured properly.
 
 ## Microsoft Saved Console

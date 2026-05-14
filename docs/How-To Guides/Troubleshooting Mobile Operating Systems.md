@@ -1,3 +1,9 @@
+---
+title: Enable Secure and Effective Permissions in Windows
+type: how-to
+tags: [windows, NTFS, permissions, EFS, file-system, security]
+sources: [CompTIA A+]
+---
 # Troubleshooting Mobile Operating Systems
 
 Mobile operating systems are streamlined for touchscreen interfaces, battery efficiency, and app-based environments. They restrict background processes to preserve resources and rely on sandboxing to enhance security. Unlike desktop systems, mobile OSs are tightly coupled with hardware, cellular networks, and proprietary app ecosystems — which shapes how issues present and how they are resolved.

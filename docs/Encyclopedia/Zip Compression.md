@@ -1,3 +1,9 @@
+---
+title: Enable Secure and Effective Permissions in Windows
+type: encyclopedia
+tags: [windows, NTFS, permissions, EFS, file-system, security]
+sources: [CompTIA A+]
+---
 # Zip Compression
 
 **Zip compression** is a widely used method of reducing the size of one or more files and packaging them into a single archive with a `.zip` extension. The resulting file — commonly called a **ZIP file** or **zipped folder** — takes up less storage space than the original content and can be transferred more quickly across a network. ZIP is supported natively by all major operating systems, making it one of the most cross-compatible file formats in everyday computing.

@@ -1,3 +1,9 @@
+---
+title: Enable Secure and Effective Permissions in Windows
+type: encyclopedia
+tags: [windows, NTFS, permissions, EFS, file-system, security]
+sources: [CompTIA A+]
+---
 # iOS
 
 iOS is a mobile operating system developed by Apple, tightly integrated with Apple hardware and the App Store. It delivers a consistent and secure experience across supported devices, with uniform updates and a unified design language shared across Apple platforms. Compared to Android, customization is more restricted — constrained to what Apple permits — in exchange for a tightly controlled and predictable user experience.

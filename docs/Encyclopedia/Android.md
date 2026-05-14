@@ -1,3 +1,9 @@
+---
+title: Enable Secure and Effective Permissions in Windows
+type: encyclopedia
+tags: [windows, NTFS, permissions, EFS, file-system, security]
+sources: [CompTIA A+]
+---
 # Android
 
 Android is a mobile operating system developed by Google, based on the Linux kernel and designed primarily for smartphones and tablets. It is open source and supports a vast app ecosystem across hardware from many manufacturers. Its abstraction layer allows application developers to be hardware agnostic in their design, enabling a consistent programming experience despite significant device diversity.

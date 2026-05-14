@@ -1,3 +1,9 @@
+---
+title: Enable Secure and Effective Permissions in Windows
+type: encyclopedia
+tags: [windows, NTFS, permissions, EFS, file-system, security]
+sources: [CompTIA A+]
+---
 # Bluetooth
 
 **Bluetooth** is a short-range wireless communication standard used to exchange data between devices over the 2.4 GHz ISM (Industrial, Scientific, and Medical) frequency band. Governed by the Bluetooth Special Interest Group (SIG), it is widely deployed in personal area networks (PANs) and is standard across consumer electronics, peripherals, and IoT devices worldwide.

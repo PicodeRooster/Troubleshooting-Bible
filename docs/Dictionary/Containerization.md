@@ -1,3 +1,9 @@
+---
+title: Enable Secure and Effective Permissions in Windows
+type: encyclopedia
+tags: [windows, NTFS, permissions, EFS, file-system, security]
+sources: [CompTIA A+]
+---
 When users rely on a single device for both personal and work tasks, maintaining separation between those worlds is critical. That’s where containerization comes in. 
 
 Containerization creates two logically isolated zones within a mobile device:
