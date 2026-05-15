@@ -84,19 +84,19 @@ fi
 
 source=$(cat <<EOF
 {
-  "\$registry_title\": {
-      "author": "\"$author"\,"
-      "source_title": "\"$source_title"\,"
-      "container_title": "\"$container_title"\,"
-      "contributor": "\"$contributor"\,"
-      "version:" "\"$version"\,"
-      "number:" "\"$number"\,"
-      "publisher:" "\"$publisher"\,"
-      "publication_date:" "\"$publication_date"\,"
-      "location:" "\"$location"\"
+  "$registry_title": {
+      "author": "$author,"
+      "source_title": "$source_title,"
+      "container_title": "$container_title,"
+      "contributor": "$contributor,"
+      "version:" "$version"
+      "number:" "$number,"
+      "publisher:" "$publisher,"
+      "publication_date:" "$publication_date,"
+      "location:" "$location"
   }
 }
 EOF
 )
 
-cat source >> "/media/pico/Coco/Troubleshooting Bible/docs/biblio.json"
+printf '%s\n' "$source" >> "/media/pico/Coco/Troubleshooting Bible/assets/biblio.json"
