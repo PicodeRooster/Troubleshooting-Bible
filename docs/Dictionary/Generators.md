@@ -1,8 +1,11 @@
 ---
-title: Enable Secure and Effective Permissions in Windows
+title: Generators
 type: dictionary
-tags: [windows, NTFS, permissions, EFS, file-system, security]
-sources: [CompTIA A+]
+tags:
+  - operations
+  - hardware
+sources:
+  - CompTIA A+
 ---
 Machines that convert mechanical energy into electrical energy, essential for environments requiring extended up-time, especially ones that start automatically. Diesel, propane and natural gas generators all keep servers. network equipment and critical systems online during prolonged outages. Often paired with UPS units to provide a seamless power transition.
 

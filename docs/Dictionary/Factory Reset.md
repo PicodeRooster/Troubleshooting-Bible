@@ -1,8 +1,11 @@
 ---
-title: Enable Secure and Effective Permissions in Windows
+title: Factory Reset
 type: dictionary
-tags: [windows, NTFS, permissions, EFS, file-system, security]
-sources: [CompTIA A+]
+tags:
+  - mobile-devices
+  - operations
+sources:
+  - CompTIA A+
 ---
 Restores a device to its original out-of-box configuration by reinstalling the OEM image and removing user files. Commonly used to wipe personal data before resale or to resolve unresolved software issues. Use as a last resort for software problems.
                   

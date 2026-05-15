@@ -1,8 +1,13 @@
 ---
-title: Enable Secure and Effective Permissions in Windows
+title: Hidden Files
 type: dictionary
-tags: [windows, NTFS, permissions, EFS, file-system, security]
-sources: [CompTIA A+]
+tags:
+  - file-system
+  - security
+  - system-architecture
+  - operating-systems
+sources:
+  - CompTIA A+
 ---
 Files with a hidden attribute are intentionally hidden from the user to avoid mis-configurations or protect data, or both.
 

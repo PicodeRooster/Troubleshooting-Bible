@@ -1,8 +1,11 @@
 ---
-title: Enable Secure and Effective Permissions in Windows
-type: dictionary
-tags: [windows, NTFS, permissions, EFS, file-system, security]
-sources: [CompTIA A+]
+title: Recovery Options After Infection
+type: how-to
+tags:
+  - security
+  - malware
+sources:
+  - CompTIA A+
 ---
 Malware removal does not immediately return the system to full stability. A strong post-infection recovery plan includes:
 

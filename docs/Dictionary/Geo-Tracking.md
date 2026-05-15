@@ -1,8 +1,13 @@
 ---
-title: Enable Secure and Effective Permissions in Windows
+title: Geo-Tracking
 type: dictionary
-tags: [windows, NTFS, permissions, EFS, file-system, security]
-sources: [CompTIA A+]
+tags:
+  - security
+  - MDM
+  - mobile-devices
+  - operations
+sources:
+  - CompTIA A+
 ---
 A feature on most MDM platforms that allows administrators to monitor a device's location in real time.
 

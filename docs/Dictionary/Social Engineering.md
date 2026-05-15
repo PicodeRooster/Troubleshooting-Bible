@@ -1,8 +1,11 @@
 ---
-title: Enable Secure and Effective Permissions in Windows
+title: Social Engineering
 type: dictionary
-tags: [windows, NTFS, permissions, EFS, file-system, security]
-sources: [CompTIA A+]
+tags:
+  - social-engineering
+  - security
+sources:
+  - CompTIA A+
 ---
 Humans using the system are sometimes the biggest threat in cybersecurity. Social engineering attacks exploit human trust, fear, curiosity, or urgency to trick users into compromising their own systems. These attacks are often cost effective, scalable and highly successful.
 

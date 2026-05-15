@@ -1,8 +1,11 @@
 ---
-title: Enable Secure and Effective Permissions in Windows
+title: Transport Layer Security (TLS)
 type: dictionary
-tags: [windows, NTFS, permissions, EFS, file-system, security]
-sources: [CompTIA A+]
+tags:
+  - networking
+  - network-protocols
+sources:
+  - CompTIA A+
 ---
 (Transport Layer Security): Current standard, replacing less secure predecessor, SSL. When a user visits an HTTPS website, the browser and server perform a handshake using TLS to exchange cryptographic keys. Once verified, a secure channel is established using symmetric encryption, which is both fast and secure for transmitting data.
 

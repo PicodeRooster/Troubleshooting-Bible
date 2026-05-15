@@ -1,10 +1,15 @@
 ---
-title: Enable Secure and Effective Permissions in Windows
+title: Remote wipe
 type: dictionary
-tags: [windows, NTFS, permissions, EFS, file-system, security]
-sources: [CompTIA A+]
+tags:
+  - security
+  - MDM
+  - operations
+  - data-disposal
+sources:
+  - CompTIA A+
 ---
-is the next line of defense. When a phone is lost or stolen, being able to trigger a remote erase of sensitive data is crucial. This feature is often managed through Mobile Device Management (MDM) platforms, allowing IT administrators to: 
+When a phone is lost or stolen, being able to trigger a remote erase of sensitive data is crucial. This feature is often managed through Mobile Device Management (MDM) platforms, allowing IT administrators to: 
 
  - Wipe all data or only corporate-related content (selective wipe)
  - Enforce automatic wipe after multiple failed login attempts

@@ -1,8 +1,10 @@
 ---
-title: Enable Secure and Effective Permissions in Windows
+title: Tokens
 type: dictionary
-tags: [windows, NTFS, permissions, EFS, file-system, security]
-sources: [CompTIA A+]
+tags:
+  - security
+sources:
+  - CompTIA A+
 ---
 These can be hardware (USB keys, key fobs) or software-based (apps that generate temporary codes).
 

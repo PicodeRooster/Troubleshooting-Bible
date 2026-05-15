@@ -1,19 +1,19 @@
 #!/bin/bash
-yaml=$(cat <<EOF
----
-title: Enable Secure and Effective Permissions in Windows
-type: how-to
-tags: [windows, NTFS, permissions, EFS, file-system, security]
-sources: [CompTIA A+]
----
-EOF
-)
-
 if [[ "$1" == *.md ]]; then
   file_name="${1}"
 else 
   file_name="${1}.md"
 fi
+
+yaml=$(cat <<EOF
+---
+title: ${file_name%.*}
+type: $(dirname "${file_name}")
+tags: [windows, operating-systems, security]
+sources: [CompTIA A+]
+---
+EOF
+)
 
 if [[ $(sed -n '1p' "$file_name")  == "---" ]]; then
   echo "Metadata template is already added to $file_name"

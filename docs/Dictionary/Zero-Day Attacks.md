@@ -1,9 +1,12 @@
 ---
-title: Enable Secure and Effective Permissions in Windows
+title: Zero-Day Attacks
 type: dictionary
-tags: [windows, NTFS, permissions, EFS, file-system, security]
-sources: [CompTIA A+]
+tags:
+  - security
+  - malware
+sources:
+  - CompTIA A+
 ---
-Exploit unknown, unpatched vulnerabilities. Esp. dangerous bcs traditional AV and firewalls can’t detect them. Frequently used in advanced persistent threats (APTs) targeting government, enterprises and critical infrastructure.
+Exploit unknown, unpatched vulnerabilities. Esp. dangerous because traditional AV and firewalls can’t detect them. Frequently used in advanced persistent threats (APTs) targeting government, enterprises and critical infrastructure.
 
 *CompTIA A+*

@@ -1,8 +1,11 @@
 ---
-title: Enable Secure and Effective Permissions in Windows
+title: Containerization
 type: dictionary
-tags: [windows, NTFS, permissions, EFS, file-system, security]
-sources: [CompTIA A+]
+tags:
+  - security
+  - mobile-devices
+sources:
+  - CompTIA A+
 ---
 When users rely on a single device for both personal and work tasks, maintaining separation between those worlds is critical. That’s where containerization comes in. 
 

@@ -1,8 +1,13 @@
 ---
-title: Enable Secure and Effective Permissions in Windows
+title: EFS
 type: dictionary
-tags: [windows, NTFS, permissions, EFS, file-system, security]
-sources: [CompTIA A+]
+tags:
+  - windows
+  - security
+  - storage-drive
+  - encryption
+sources:
+  - CompTIA A+
 ---
 The Encryption File System (EFS) provides an additional level of security for files and directories. It provides cryptographic protection of individual files on NTFS file system volumes using a public-key system. Designed with low portability, tied to NTFS and the user, it is ideal for local security and protecting confidentiality.
 

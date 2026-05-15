@@ -1,8 +1,10 @@
 ---
-title: Enable Secure and Effective Permissions in Windows
+title: Escalation
 type: dictionary
-tags: [windows, NTFS, permissions, EFS, file-system, security]
-sources: [CompTIA A+]
+tags:
+  - operations
+sources:
+  - CompTIA A+
 ---
 The process of transferring a ticket to someone with deeper knowledge or authority when a problem exceeds a technician's scope. It follows a chain of command structured around issue severity, ensuring that underlying problems are addressed by the right person at the right level.
 

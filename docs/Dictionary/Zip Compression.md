@@ -1,8 +1,11 @@
 ---
-title: Enable Secure and Effective Permissions in Windows
+title: Zip Compression
 type: dictionary
-tags: [windows, NTFS, permissions, EFS, file-system, security]
-sources: [CompTIA A+]
+tags:
+  - file-system
+  - system-architecture
+sources:
+  - CompTIA A+
 ---
 Works by reducing the size of one or more files into a single "zipped" folder. Can be encrypted with password, but not a secure tool, unless combined with strong third-party tools.
 
