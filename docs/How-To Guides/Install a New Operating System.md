@@ -1,8 +1,14 @@
 ---
-title: Enable Secure and Effective Permissions in Windows
+title: Install a New Operating System
 type: how-to
-tags: [windows, NTFS, permissions, EFS, file-system, security]
-sources: [CompTIA A+]
+tags:
+  - operating-systems
+  - linux
+  - macOS
+  - windows
+  - operations
+sources:
+  - CompTIA A+
 ---
 ## Pre-Requisites
 

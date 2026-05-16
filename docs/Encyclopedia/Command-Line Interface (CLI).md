@@ -1,8 +1,21 @@
 ---
-title: Enable Secure and Effective Permissions in Windows
+title: Command-Line Interface (CLI)
 type: encyclopedia
-tags: [windows, NTFS, permissions, EFS, file-system, security]
-sources: [CompTIA A+]
+tags:
+  - system-administration
+  - coding
+  - shell
+  - terminal
+sources:
+  - CompTIA A+
+  - AWS
+  - File Systems - ArchWiki
+  - Fsck - ArchWiki
+  - CLI - IBM
+  - Partitioning - ArchWiki
+  - Netsh - Robinharwood
+  - Windows Server Management Documentation - Robinharwood 
+  - Rsync - ArchWiki
 ---
 # Command-Line Interface (CLI)
 
@@ -156,25 +169,3 @@ CLI command syntax varies between operating systems. The tables below show equiv
 **Keep the system updated.** CLI tools and the underlying OS receive regular updates that include bug fixes, performance improvements, and security patches. Running outdated software increases exposure to known vulnerabilities.
 
 **Log CLI activity.** Recording CLI sessions creates an audit trail that helps detect unauthorized changes, identify suspicious behavior, and reconstruct the sequence of actions when troubleshooting.
-
----
-
-### Sources
-
-Amazon Web Services. "What Is a CLI (Command Line Interface)?" *AWS*, aws.amazon.com/what-is/cli/.
-
-“File Systems.” _File Systems - ArchWiki_, wiki.archlinux.org/title/File_systems#Create_a_file_system. Accessed 8 May 2026.
-
-“FSCK.” _Fsck - ArchWiki_, wiki.archlinux.org/title/Fsck. Accessed 7 May 2026.
-
-IBM. "About CLI Commands." *IBM Documentation*, 1 Aug. 2023, www.ibm.com/docs/en/ds8900/9.3.2?topic=command-about-cli-commands.
-
-“Partitioning.” _Partitioning - ArchWiki_, wiki.archlinux.org/title/Partitioning. Accessed 7 May 2026.
-
-Robinharwood. “Network Shell (Netsh).” _Microsoft Learn_, learn.microsoft.com/en-us/windows-server/administration/windows-commands/netsh. Accessed 7 May 2026.
-
-Robinharwood. “Windows Server Management Documentation.” _Microsoft Learn_, learn.microsoft.com/en-us/windows-server/administration/manage-windows-server. Accessed 7 May 2026.
-
-“Rsync.” _Rsync - ArchWiki_, wiki.archlinux.org/title/Rsync. Accessed 7 May 2026.
-
-Walker, Shawn. _CompTIA Study Guide A+: 220-1201 and 220-1202_. 3rd ed., 2025.

@@ -1,8 +1,11 @@
 ---
-title: Enable Secure and Effective Permissions in Windows
+title: Flash a USB Drive
 type: how-to
-tags: [windows, NTFS, permissions, EFS, file-system, security]
-sources: [CompTIA A+]
+tags:
+  - storage-drive
+  - operating-systems
+sources:
+  - How to Create a Bootable USB Drive for Windows - Kingston Technology
 ---
 # Flash a Bootable USB Drive for Windows
 
@@ -120,10 +123,4 @@ When you're ready to use it:
 3. Set the USB as the **boot device**
 4. Save and restart — the system will boot from the USB
 5. Follow the on-screen prompts to install Windows, run recovery tools, or perform whatever task you need
-
----
-
-## Sources
-
-- Kingston Technology — [How to Create a Bootable USB Drive for Windows](https://www.kingston.com/en/blog/personal-storage/create-bootable-usb-flash-drive-for-windows) (Nov 2025)
 

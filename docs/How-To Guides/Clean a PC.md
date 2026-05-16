@@ -1,8 +1,12 @@
 ---
-title: Enable Secure and Effective Permissions in Windows
+title: Clean a PC
 type: how-to
-tags: [windows, NTFS, permissions, EFS, file-system, security]
-sources: [CompTIA A+]
+tags:
+  - hardware
+  - operations
+sources:
+  - CompTIA A+
+  - How to Clean Your PC System - Kingston Technology
 ---
 # Clean a PC
 
@@ -195,10 +199,3 @@ Machines in dusty, high-traffic, or industrial environments should be cleaned mo
 | No display | GPU not fully seated, PCIe power disconnected, monitor cable loose |
 | High CPU temps | Cooler not properly mounted, fan header disconnected, insufficient thermal paste |
 | Unusual noise | Cable contacting a fan, loose screw inside case, fan not secured in mount |
-
----
-
-## Sources
-
-- Walker. *CompTIA A+ Core 1 (220-1101) and Core 2 (220-1102).* Internal knowledge base reference.
-- Kingston Technology. "How to Clean Your PC System." *Kingston Technology Blog*, September 2021. https://www.kingston.com/en/blog/gaming/how-to-clean-your-pc-system

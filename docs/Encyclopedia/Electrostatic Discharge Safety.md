@@ -1,8 +1,13 @@
 ---
-title: Enable Secure and Effective Permissions in Windows
+title: Electrostatic Discharge Safety
 type: encyclopedia
-tags: [windows, NTFS, permissions, EFS, file-system, security]
-sources: [CompTIA A+]
+tags:
+  - safety
+  - operations
+  - hardware
+sources:
+  - CompTIA A+
+  - Sanken
 ---
 # Electrostatic Discharge Safety
 
@@ -98,11 +103,3 @@ ESD sensitivity ratings on semiconductor datasheets are derived from standardize
 | **Charged Package Model (CPM)** | Device package inductively charged by a high electrical field | 0 Ω discharging resistor |
 
 HBM is the most commonly cited rating in component specifications. CDM is increasingly important in automated assembly environments where devices are handled by machines rather than people.
-
----
-
-## Sources
-
-"9 Measures for Electrostatic Discharge (ESD)." *Sanken Electric Co., Ltd.*, www.semicon.sanken-ele.co.jp/en/support/reliability/.
-
-Walker, Shawn. _CompTIA Study Guide A+: 220-1201 and 220-1202_. 3rd ed., 2025.

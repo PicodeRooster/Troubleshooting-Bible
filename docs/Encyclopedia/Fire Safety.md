@@ -1,8 +1,14 @@
 ---
-title: Enable Secure and Effective Permissions in Windows
+title: Fire Safety
 type: encyclopedia
-tags: [windows, NTFS, permissions, EFS, file-system, security]
-sources: [CompTIA A+]
+tags:
+  - safety
+  - operations
+  - hardware
+sources:
+  - CompTIA A+
+  - London Fire Brigade
+  - Carnegie Mellon University
 ---
 # Fire Hazards and Safety Around Electronics
 
@@ -83,11 +89,3 @@ Act on any of the following — do not assume they are minor:
 | Frayed or cracked cable insulation | Direct fire and shock hazard — replace immediately |
 
 When in doubt, disconnect the equipment and have the wiring or device inspected before using it again.
-
----
-
-## Sources
-
- - “Electrical Fire Safety.” Carnegie Mellon University | Environmental Health & Safety.
- - "Electrical Items - Fire Safety at Home." *London Fire Brigade*, www.london-fire.gov.uk/safety/the-home/electrical-items/.
- - Walker, Shawn. _CompTIA Study Guide A+: 220-1201 and 220-1202_. 3rd ed., 2025.

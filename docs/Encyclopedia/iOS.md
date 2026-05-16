@@ -1,8 +1,13 @@
 ---
-title: Enable Secure and Effective Permissions in Windows
+title: iOS
 type: encyclopedia
-tags: [windows, NTFS, permissions, EFS, file-system, security]
-sources: [CompTIA A+]
+tags:
+  - operating-systems
+  - mobile-devices
+  - apple
+sources:
+  - CompTIA A+
+  - Apple Developer
 ---
 # iOS
 
@@ -42,11 +47,4 @@ Recovery Mode allows iOS to be restored or updated via the host computer when no
 ## Safe Mode
 
 iOS does not have a native Safe Mode. The closest alternative is to restart the device without launching recent apps. Full Safe Mode functionality is only available on jailbroken devices.
-
----
-
-## Sources
-
- - Apple Inc. “iOS.” Apple Developer, developer.apple.com/ios/. Accessed 8 May 2026.
- - Walker, Shawn. _CompTIA Study Guide A+: 220-1201 and 220-1202_. 3rd ed., 2025.
 

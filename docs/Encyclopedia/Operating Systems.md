@@ -1,8 +1,16 @@
 ---
-title: Enable Secure and Effective Permissions in Windows
+title: Operating Systems
 type: encyclopedia
-tags: [windows, NTFS, permissions, EFS, file-system, security]
-sources: [CompTIA A+]
+tags:
+  - operating-systems
+  - windows
+  - macOS
+  - linux
+sources:
+  - CompTIA A+
+  - Susnjara
+  - Canonical
+  - Red Hat
 ---
 # Operating Systems
 
@@ -106,12 +114,3 @@ AI integration is an emerging area of operating system development. AI-powered f
 - **macOS** — A Unix-like proprietary OS designed for Apple desktops, laptops, and workstations. Especially popular in creative industries for graphic design, video editing, music production, and software development.
 - **iOS** — Apple's proprietary mobile operating system for iPhones and iPads.
 - **Android** — An open source mobile operating system developed by Google, widely used across personal and business smartphone devices.
-
----
-
-## Sources
-
-- IBM. *What is an Operating System?* https://www.ibm.com/think/topics/operating-systems
-- Canonical. *Ubuntu Desktop PC Operating System.* https://ubuntu.com/desktop
-- Red Hat. *Red Hat Enterprise Linux for Workstations.* https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux/workstations
-- Walker, Shawn. _CompTIA Study Guide A+: 220-1201 and 220-1202_. 3rd ed., 2025.

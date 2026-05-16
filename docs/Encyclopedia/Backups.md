@@ -1,8 +1,16 @@
 ---
-title: Enable Secure and Effective Permissions in Windows
+title: Backups
 type: encyclopedia
-tags: [windows, NTFS, permissions, EFS, file-system, security]
-sources: [CompTIA A+]
+tags:
+  - storage
+  - data-management
+  - operations
+sources:
+  - CompTIA A+
+  - iPhone User Guide
+  - Android Help
+  - IBM Think
+  - Microsoft Support
 ---
 # Backing Up Data
 
@@ -150,17 +158,3 @@ Google One Backup covers messages, contacts, app settings, device preferences, a
 - Sign into a Google Account on a new or reset Android device during setup
 - Follow on-screen prompts to restore backed-up data
 - The target device must run the same or a later Android version than the source device
-
----
-
-## Sources
-
-Apple. "Back up iPhone." *iPhone User Guide*, iOS 26, Apple Support, 2026.
-
-Google. "Back up or restore data on your Android device." *Android Help*, Google Support, 2026.
-
-IBM. "What Is Backup and Restore?" *IBM Think*, IBM, 2026.
-
-Microsoft. "Back up and restore with Windows Backup." *Microsoft Support*, Microsoft, 2026.
-
-Walker, Shawn. *CompTIA Study Guide A+: 220-1201 and 220-1202*. 3rd ed., 2025.

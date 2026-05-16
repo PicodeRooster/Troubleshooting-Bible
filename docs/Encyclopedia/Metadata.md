@@ -1,8 +1,16 @@
 ---
-title: Enable Secure and Effective Permissions in Windows
+title: Metadata
 type: encyclopedia
-tags: [windows, NTFS, permissions, EFS, file-system, security]
-sources: [CompTIA A+]
+tags:
+  - windows
+  - NTFS
+  - permissions
+  - EFS
+  - file-system
+  - security
+sources:
+  - CompTIA A+
+  - Badman
 ---
 # Metadata
 
@@ -88,9 +96,3 @@ Metadata management is the practice of organizing, optimizing, and using metadat
 Metadata repositories are central to this process, serving as a single point of reference to help ensure that metadata is consistent and up-to-date across systems. Automation — through templates and APIs — is commonly used to reduce manual errors and speed up metadata processing, making it easier to handle large data sets efficiently.
 
 The rise of AI and ML has further elevated the importance of metadata management, as these technologies depend on well-labeled and well-organized data to function effectively.
-
----
-
-### Sources
-
-Badman, Annie, and Matthew Kosinski. "What Is Metadata?" IBM, 17 Nov. 2025, www.ibm.com/think/topics/metadata.

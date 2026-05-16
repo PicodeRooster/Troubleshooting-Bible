@@ -19,5 +19,3 @@ Malware removal does not immediately return the system to full stability. A stro
 - Update and patch: After cleanup, immediately update Windows and all security software to prevent re-exploitation.
 
 If full trust can't be recovered, consider clean reimage using a known good baseline - may be faster and safer than trying to fix every subsystem manually.
-
-*CompTIA A+*

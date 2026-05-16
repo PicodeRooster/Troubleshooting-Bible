@@ -1,8 +1,13 @@
 ---
-title: Enable Secure and Effective Permissions in Windows
+title: Troubleshooting Mobile Operating Systems
 type: how-to
-tags: [windows, NTFS, permissions, EFS, file-system, security]
-sources: [CompTIA A+]
+tags:
+  - mobile-devices
+  - operating-systems
+  - android
+  - iOS
+sources:
+  - CompTIA A+
 ---
 # Troubleshooting Mobile Operating Systems
 
@@ -148,19 +153,14 @@ A factory reset erases all user data and returns the device to its original out-
 
 ## Platform Reference
 
-| Feature | Android | iOS |
-|---------|---------|-----|
-| App source | Google Play Store; APK sideloading (requires enabling "Unknown Sources") | App Store only (supervised enterprise environments may allow exceptions) |
-| Permissions management | Settings > Apps > [App Name] > Permissions | Settings > Privacy > [Feature] or Settings > [App Name] |
-| File system | ext4 or F2FS; scoped storage model on newer versions | APFS; tightly sandboxed, accessible via the Files app |
-| Backup | Google One, Google Drive, OEM tools, ADB, SD card | iCloud, iTunes/Finder |
-| Recovery Mode | Power + Volume Up (varies by device) | Connect to Mac/PC via iTunes or Finder, enter via button combo |
-| Safe Mode | Supported natively | Not available on stock devices |
-| Update rollback | Some OEMs support it; others require firmware flashing | Only to currently signed iOS versions |
-| Update delivery | Varies by device manufacturer and carrier | Uniform across all supported models |
+| Feature                | Android                                                                  | iOS                                                                      |
+| ---------------------- | ------------------------------------------------------------------------ | ------------------------------------------------------------------------ |
+| App source             | Google Play Store; APK sideloading (requires enabling "Unknown Sources") | App Store only (supervised enterprise environments may allow exceptions) |
+| Permissions management | Settings > Apps > [App Name] > Permissions                               | Settings > Privacy > [Feature] or Settings > [App Name]                  |
+| File system            | ext4 or F2FS; scoped storage model on newer versions                     | APFS; tightly sandboxed, accessible via the Files app                    |
+| Backup                 | Google One, Google Drive, OEM tools, ADB, SD card                        | iCloud, iTunes/Finder                                                    |
+| Recovery Mode          | Power + Volume Up (varies by device)                                     | Connect to Mac/PC via iTunes or Finder, enter via button combo           |
+| Safe Mode              | Supported natively                                                       | Not available on stock devices                                           |
+| Update rollback        | Some OEMs support it; others require firmware flashing                   | Only to currently signed iOS versions                                    |
+| Update delivery        | Varies by device manufacturer and carrier                                | Uniform across all supported models                                      |
 
----
-
-## Sources
-
-Walker, Shawn. _CompTIA Study Guide A+: 220-1201 and 220-1202_. 3rd ed., 2025.

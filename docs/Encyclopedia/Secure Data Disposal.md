@@ -1,8 +1,11 @@
 ---
-title: Enable Secure and Effective Permissions in Windows
+title: Secure Data Disposal
 type: encyclopedia
-tags: [windows, NTFS, permissions, EFS, file-system, security]
-sources: [CompTIA A+]
+tags:
+  - security
+  - data-disposal
+sources:
+  - CompTIA A+
 ---
 Every device eventually reaches an end of life cycle. Before leaving control, ensure that all sensitive data is completely and truly gone. Deleting files and formatting drive is not sufficient as sophisticated tools can recover data that is not properly destroyed. When a device goes, the data must go with it. Destroy it deliberately and document the process.
 
@@ -21,8 +24,3 @@ One of the most important parts of IT is the secure disposal of data. Mishandled
 **Secure wiping (or destruction):** The only option that can meet most compliance requirements in enterprise settings.
 
 Organizations must follow documented policies for device disposal: verification logs, chain of custody records, and proper environmental practices. In regulated industries, failure to properly destroy data can lead to heavy fines — or worse, data breach traced back to a discarded drive.
-
----
-## Sources
-
-Walker, Shawn. _CompTIA Study Guide A+: 220-1201 and 220-1202_. 3rd ed., 2025.

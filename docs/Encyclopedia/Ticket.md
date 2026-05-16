@@ -1,8 +1,11 @@
 ---
-title: Enable Secure and Effective Permissions in Windows
+title: Ticket
 type: encyclopedia
-tags: [windows, NTFS, permissions, EFS, file-system, security]
-sources: [CompTIA A+]
+tags:
+  - operations
+sources:
+  - CompTIA A+
+  - Atlassian
 ---
 # Ticket
 
@@ -50,17 +53,3 @@ Tickets can be linked to one another to represent dependencies and associations.
 - **Relates to** — A general association without a specific dependency
 
 These relationships make it easier for teams to navigate connected work and surface hidden dependencies before they become bottlenecks.
-
-## See Also
-
-- Help Desk
-- Incident Management
-- IT Service Management (ITSM)
-
----
-
-## Sources
-
-- Atlassian. "Introduction to Jira Work Items." *Atlassian.* https://www.atlassian.com/software/jira/guides/issues/overview
-- Walker. *CompTIA A+ Core 1 (220-1101) and Core 2 (220-1102).* Internal knowledge base reference.
-

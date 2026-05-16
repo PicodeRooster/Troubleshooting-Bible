@@ -1,8 +1,13 @@
 ---
-title: Enable Secure and Effective Permissions in Windows
+title: Bluetooth
 type: encyclopedia
-tags: [windows, NTFS, permissions, EFS, file-system, security]
-sources: [CompTIA A+]
+tags:
+  - networking
+  - peripherals
+  - security
+sources:
+  - CompTIA A+
+  - Bluetooth SIG
 ---
 # Bluetooth
 
@@ -37,16 +42,3 @@ Bluetooth is exploitable in close-range attacks, particularly in high-traffic pu
 - **Bluejacking** — sending unsolicited messages to nearby Bluetooth devices
 - **Bluesnarfing** — unauthorized access to a device's data over Bluetooth
 - **Bluebugging** — remote hijacking of a device to intercept calls, send messages, or inject malware
-
-## See Also
-
-- Wi-Fi
-- NFC
-- Personal Area Network (PAN)
-
----
-
-## Sources
-
-- Walker. *CompTIA A+ Core 1 (220-1101) and Core 2 (220-1102).* Internal knowledge base reference.
-- Bluetooth SIG. "Bluetooth Technology Overview." *Bluetooth® Technology Website.* https://www.bluetooth.com/learn-about-bluetooth/tech-overview

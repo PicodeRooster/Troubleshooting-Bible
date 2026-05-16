@@ -5,7 +5,7 @@ tags:
   - file-system
   - system-architecture
 sources:
-  - IBM
+  - Badman
 ---
 
 Information that describes a data point or data set, separate from the content of the data itself. Metadata includes details such as author, creation date, file size, file type, and keywords. Often labeled as "data about data," it improves a system's ability to organize, search for, and retrieve information.

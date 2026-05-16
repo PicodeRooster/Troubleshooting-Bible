@@ -1,8 +1,10 @@
 ---
-title: Enable Secure and Effective Permissions in Windows
+title: File Attributes
 type: encyclopedia
-tags: [windows, NTFS, permissions, EFS, file-system, security]
-sources: [CompTIA A+]
+tags:
+  - file-system
+sources:
+  - CompTIA A+
 ---
 Flags assigned to files and folders affecting visibility, importance and user interaction. Stored in the file system and interpreted by the OS. You can change these attributes by Files Explorer (right-click > **Properties**) or with the attribute utility in the command line. Enable file extension visibility for security best practice. Cyberattacks use  double extensions to trick users into launching malicious code. Permissions can be inherited from parent folders or assigned manually. 
 
@@ -20,5 +22,3 @@ Flags assigned to files and folders affecting visibility, importance and user in
 	- Access only when necessary, preferably in read-only or via backups
 	
 - **Archive**: Signals file has changed since last backup
-
-Walker, Shawn. _CompTIA Study Guide A+: 220-1201 and 220-1202_. 3rd ed., 2025.

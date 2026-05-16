@@ -1,8 +1,11 @@
 ---
-title: Enable Secure and Effective Permissions in Windows
+title: Zip Compression
 type: encyclopedia
-tags: [windows, NTFS, permissions, EFS, file-system, security]
-sources: [CompTIA A+]
+tags:
+  - file-system
+sources:
+  - CompTIA A+
+  - Lenovo
 ---
 # Zip Compression
 
@@ -57,11 +60,3 @@ ZIP archives support password protection, which restricts access to the contents
 ## Data Integrity
 
 Because ZIP is lossless, the content of every file inside an archive is guaranteed to be identical to the original after extraction. This reliability makes ZIP appropriate for archiving critical documents, source code, or any data where accuracy cannot be compromised. The format does not approximate or summarize data — it encodes and decodes it exactly.
-
----
-
-### Sources
-
-Lenovo. "What Is ZIP? How Does ZIP Compression Work?" *Lenovo US*, www.lenovo.com/us/en/glossary/what-is-zip/.
-
-Walker, Shawn. _CompTIA Study Guide A+: 220-1201 and 220-1202_. 3rd ed., 2025.

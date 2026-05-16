@@ -1,8 +1,13 @@
 ---
-title: Enable Secure and Effective Permissions in Windows
+title: Disk Partition
 type: encyclopedia
-tags: [windows, NTFS, permissions, EFS, file-system, security]
-sources: [CompTIA A+]
+tags:
+  - storage
+  - storage-drive
+sources:
+  - CompTIA A+
+  - R-Studio
+  - Gordon
 ---
 # Disk Partition
 
@@ -94,13 +99,3 @@ When complete, the new partition appears in File Explorer as an additional drive
 Partitioning is not always the right solution. If the goal is to encrypt files, it may be simpler to use a tool like VeraCrypt to create a virtual encrypted disk rather than creating a dedicated partition. If the goal is to separate user data from the OS, the main risk is running out of space on one partition while the other has room to spare — a problem that can be more disruptive than having everything on a single volume.
 
 Partitioning is most justified when there is a firm requirement for it, such as dual-booting, OS-level encryption of a specific volume, or compliance requirements mandating that certain data reside on a dedicated volume.
-
----
-
-### Sources
-
-R-Tools Technology. "What Is a Disk Partition." *R-Studio*, www.r-studio.com/What-is-Disk-Partition.html.
-
-Gordon, Whitson. "Time to Split: How to Partition a Hard Drive in Windows." *PCMag*, 3 Sept. 2024, www.pcmag.com/how-to/how-to-partition-a-hard-drive.
-
-Walker, Shawn. _CompTIA Study Guide A+: 220-1201 and 220-1202_. 3rd ed., 2025.

@@ -1,8 +1,12 @@
 ---
-title: Enable Secure and Effective Permissions in Windows
+title: Cable Management
 type: encyclopedia
-tags: [windows, NTFS, permissions, EFS, file-system, security]
-sources: [CompTIA A+]
+tags:
+  - hardware
+  - operations
+sources:
+  - CompTIA A+
+  - Duffy
 ---
 # Cable Management
 
@@ -77,11 +81,4 @@ Store wrapped cables in labeled bins, pouches, or drawers organized by cable typ
 - Keep cables and fastening materials away from outlets and heat sources.
 - The practices in this guide apply to consumer-level cables and cords. Do not modify building electrical wiring unless you are a licensed electrician.
 
----
-
-## Sources
-
-Duffy, Jill. "Clean Up Your Messy Cables With These 9 Simple Tips." *PCMag*, 13 Mar. 2025.
-
-Walker, Shawn. _CompTIA Study Guide A+: 220-1201 and 220-1202_. 3rd ed., 2025.
 

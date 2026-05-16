@@ -1,8 +1,11 @@
 ---
-title: Enable Secure and Effective Permissions in Windows
+title: Windows 11
 type: encyclopedia
-tags: [windows, NTFS, permissions, EFS, file-system, security]
-sources: [CompTIA A+]
+tags:
+  - windows
+  - operating-systems
+sources:
+  - CompTIA A+
 ---
 The most widely used desktop OS, known for its extensive application compatibility, strong enterprise features, and gaming support. Ideal for mixed-use environments but can be resource-intensive and more vulnerable to malware if not secured properly.
 
@@ -236,7 +239,3 @@ Designed to be more intuitive and user friendly, about 80% of what you use daily
  - **Network & internet:**  Manage Wi-Fi and Ethernet connections, enable or disable network adapters, configure IP settings, set up a proxy, and launch troubleshooters.
  - **Troubleshoot:** Designed for fast automatic detection of issues. Runs diagnostics, applies applicable fixes and logs the outcome - great for first line solutions. This tool covers internet and network problems, printer connectivity, audio playback failures, Windows Update errors and Bluetooth and peripheral troubleshooting.
  - See your device info, customize OS experience, change Accessibility settings, etc. 
----
-### Sources
-
-Walker, Shawn. _CompTIA Study Guide A+: 220-1201 and 220-1202_. 3rd ed., 2025.
