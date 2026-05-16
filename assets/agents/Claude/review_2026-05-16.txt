@@ -1,0 +1,41 @@
+Entries with status "review" — 2026-05-16
+==========================================
+
+[dict]
+✅️AV.md
+✅️Biometrics.md
+✅️Commercial OS.md
+⚠️Containerization.md
+✅️Encryption File System (EFS).md
+✅️exFAT.md
+✅️Face Recognition.md
+✅️FAT32.md
+✅️Fingerprint Scanning.md
+✅️Lock Screens.md
+⚠️Logic Bombs.md
+✅️Multi-factor Authentication (MFA).md
+✅️Open Source OS.md
+✅️Remote Access Tools.md
+✅️Rootkits.md
+✅️Server OS.md
+✅️Shredding.md
+✅️Single Sign-On (SSO).md
+✅️Site Plans.md
+✅️Smart Cards.md
+✅️Social Engineering.md
+⚠️Spear Phishing.md
+✅️Surge Protectors.md
+✅️Timeout Policies.md
+✅️Uninterruptible Power Supply (UPS).md
+⚠️Virtual Private Network (VPN).md
+✅️Voice Recognition.md
+✅️Wiping.md
+
+[wiki]
+Android.md
+Backups.md
+Secure Data Disposal.md
+Windows 11.md
+
+✅️[howto]
+Map a Network Drive.md

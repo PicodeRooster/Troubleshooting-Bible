@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>TB Progression Tracker</title>
+<style>
+  :root {
+    --bg: #0f1115;
+    --panel: #161922;
+    --panel-2: #1c2030;
+    --ink: #e8e6df;
+    --ink-dim: #8a8779;
+    --line: #2a2e3d;
+    --accent: #d4a857;
+    --danger: #c45a4f;
+    --grey: #6b7280;
+
+    --type-dict: #5b8def;
+    --type-wiki: #b06ab3;
+    --type-howto: #4caf81;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+    min-height: 100vh;
+  }
+
+  header {
+    padding: 28px 36px 18px;
+    border-bottom: 1px solid var(--line);
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+
+  h1 {
+    margin: 0;
+    font-size: 28px;
+    font-weight: 500;
+    letter-spacing: -0.01em;
+  }
+
+  h1 .accent {
+    color: var(--accent);
+    font-style: italic;
+  }
+
+  .meta {
+    font-family: "JetBrains Mono", "Menlo", monospace;
+    font-size: 11px;
+    color: var(--ink-dim);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  /* ─── Composer ─── */
+  .composer {
+    padding: 18px 36px;
+    background: var(--panel);
+    border-bottom: 1px solid var(--line);
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .composer input[type="text"],
+  .composer select {
+    background: var(--panel-2);
+    color: var(--ink);
+    border: 1px solid var(--line);
+    padding: 9px 12px;
+    font-family: inherit;
+    font-size: 14px;
+    border-radius: 3px;
+    outline: none;
+  }
+
+  .composer input[type="text"] { flex: 1; min-width: 200px; }
+  .composer input[type="text"]:focus,
+  .composer select:focus { border-color: var(--accent); }
+
+  .composer input[type="color"] {
+    width: 38px; height: 38px;
+    padding: 2px; border: 1px solid var(--line);
+    background: var(--panel-2); cursor: pointer; border-radius: 3px;
+  }
+
+  .composer button {
+    background: var(--accent);
+    color: #1a1a1a;
+    border: none;
+    padding: 9px 18px;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: transform 0.08s ease;
+  }
+  .composer button:hover { transform: translateY(-1px); }
+  .composer button.ghost {
+    background: transparent; color: var(--ink-dim);
+    border: 1px solid var(--line); font-weight: 400;
+  }
+  .composer button.ghost:hover { color: var(--ink); border-color: var(--ink-dim); }
+
+  .swatch-reset {
+    font-size: 11px; color: var(--ink-dim);
+    cursor: pointer; user-select: none; padding: 0 4px;
+  }
+  .swatch-reset:hover { color: var(--accent); }
+
+  /* ─── Board ─── */
+  .board {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 14px;
+    padding: 24px 36px 60px;
+  }
+
+  @media (max-width: 1100px) {
+    .board { grid-template-columns: repeat(2, 1fr); }
+  }
+  @media (max-width: 640px) {
+    .board { grid-template-columns: 1fr; padding: 16px; }
+    header, .composer { padding-left: 16px; padding-right: 16px; }
+  }
+
+  .column {
+    background: var(--panel);
+    border: 1px solid var(--line);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    min-height: 400px;
+  }
+
+  .col-header {
+    padding: 14px 16px;
+    border-bottom: 1px solid var(--line);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .col-title {
+    font-family: "JetBrains Mono", "Menlo", monospace;
+    font-size: 11px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--ink-dim);
+  }
+  .col-count {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 11px;
+    color: var(--accent);
+    background: rgba(212, 168, 87, 0.1);
+    padding: 2px 8px;
+    border-radius: 2px;
+  }
+
+  .col-body {
+    padding: 12px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    min-height: 100px;
+    transition: background 0.15s ease;
+  }
+  .col-body.drag-over {
+    background: rgba(212, 168, 87, 0.06);
+    box-shadow: inset 0 0 0 1px rgba(212, 168, 87, 0.3);
+  }
+
+  /* ─── Cards ─── */
+  .card {
+    background: var(--panel-2);
+    border-left: 3px solid var(--grey);
+    border-radius: 3px;
+    padding: 11px 12px 10px;
+    cursor: grab;
+    position: relative;
+    transition: transform 0.12s ease, box-shadow 0.12s ease;
+  }
+  .card:hover {
+    transform: translateX(2px);
+    box-shadow: -2px 2px 0 rgba(0,0,0,0.2);
+  }
+  .card:active { cursor: grabbing; }
+  .card.dragging { opacity: 0.4; }
+
+  .card-title {
+    font-size: 15px;
+    line-height: 1.35;
+    margin-bottom: 6px;
+    word-break: break-word;
+    padding-right: 18px;
+  }
+
+  .card-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .card-type {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    padding: 2px 6px;
+    border-radius: 2px;
+    color: #fff;
+  }
+  .card-type.dict { background: var(--type-dict); }
+  .card-type.wiki { background: var(--type-wiki); }
+  .card-type.howto { background: var(--type-howto); }
+
+  .card-delete {
+    position: absolute;
+    top: 8px; right: 8px;
+    background: none; border: none;
+    color: var(--ink-dim);
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 1;
+    opacity: 0;
+    transition: opacity 0.15s ease, color 0.15s ease;
+    padding: 2px 4px;
+  }
+  .card:hover .card-delete { opacity: 1; }
+  .card-delete:hover { color: var(--danger); }
+
+  .empty {
+    color: var(--ink-dim);
+    font-style: italic;
+    font-size: 13px;
+    text-align: center;
+    padding: 24px 8px;
+    opacity: 0.5;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Troubleshooting Bible — <span class="accent">Progression Tracker</span></h1>
+  <span class="meta" id="stamp">loading…</span>
+</header>
+
+<div class="composer">
+  <input type="text" id="title-input" placeholder="Article title…" maxlength="120">
+  <select id="type-input">
+    <option value="dict">Dict.</option>
+    <option value="wiki">Wiki</option>
+    <option value="howto">How-To</option>
+  </select>
+  <input type="color" id="color-input" value="#6b7280" title="Card accent color">
+  <span class="swatch-reset" id="color-reset" title="Reset to default grey">reset</span>
+  <button id="add-btn">＋ Add</button>
+  <button class="ghost" id="export-btn">Export JSON</button>
+  <button class="ghost" id="clear-btn">Clear all</button>
+</div>
+
+<div class="board" id="board"></div>
+
+<script>
+  const STATUSES = [
+    { id: "draft",    label: "Rough Draft" },
+    { id: "progress", label: "In Progress" },
+    { id: "review",   label: "In Review" },
+    { id: "ship",     label: "Ready to Ship" }
+  ];
+
+  const STORE_KEY = "tb_tracker_v1";
+  const DEFAULT_COLOR = "#6b7280";
+
+  /* ─── State ─── */
+  let state = load();
+
+  function load() {
+    try {
+      const raw = localStorage.getItem(STORE_KEY);
+      if (raw) return JSON.parse(raw);
+    } catch (e) { console.warn("Load failed:", e); }
+    return { cards: [] };
+  }
+
+  function save() {
+    try { localStorage.setItem(STORE_KEY, JSON.stringify(state)); }
+    catch (e) { console.warn("Save failed:", e); }
+  }
+
+  function uid() {
+    return Date.now().toString(36) + Math.random().toString(36).slice(2, 7);
+  }
+
+  /* ─── Render ─── */
+  const board = document.getElementById("board");
+
+  function render() {
+    board.innerHTML = "";
+    STATUSES.forEach(status => {
+      const col = document.createElement("div");
+      col.className = "column";
+      const cards = state.cards.filter(c => c.status === status.id);
+      col.innerHTML = `
+        <div class="col-header">
+          <span class="col-title">${status.label}</span>
+          <span class="col-count">${cards.length}</span>
+        </div>
+        <div class="col-body" data-status="${status.id}"></div>
+      `;
+      const body = col.querySelector(".col-body");
+
+      if (cards.length === 0) {
+        const empty = document.createElement("div");
+        empty.className = "empty";
+        empty.textContent = "—";
+        body.appendChild(empty);
+      } else {
+        cards.forEach(c => body.appendChild(renderCard(c)));
+      }
+
+      // Drop targets
+      body.addEventListener("dragover", e => {
+        e.preventDefault();
+        body.classList.add("drag-over");
+      });
+      body.addEventListener("dragleave", () => body.classList.remove("drag-over"));
+      body.addEventListener("drop", e => {
+        e.preventDefault();
+        body.classList.remove("drag-over");
+        const id = e.dataTransfer.getData("text/plain");
+        const card = state.cards.find(c => c.id === id);
+        if (card && card.status !== status.id) {
+          card.status = status.id;
+          save();
+          render();
+        }
+      });
+
+      board.appendChild(col);
+    });
+    document.getElementById("stamp").textContent =
+      `${state.cards.length} entries • last saved ${new Date().toLocaleTimeString()}`;
+  }
+
+  function renderCard(c) {
+    const el = document.createElement("div");
+    el.className = "card";
+    el.draggable = true;
+    el.dataset.id = c.id;
+    el.style.borderLeftColor = c.color || DEFAULT_COLOR;
+    el.innerHTML = `
+      <button class="card-delete" title="Delete">×</button>
+      <div class="card-title"></div>
+      <div class="card-meta">
+        <span class="card-type ${c.type}">${typeLabel(c.type)}</span>
+      </div>
+    `;
+    el.querySelector(".card-title").textContent = c.title;
+
+    el.addEventListener("dragstart", e => {
+      e.dataTransfer.setData("text/plain", c.id);
+      el.classList.add("dragging");
+    });
+    el.addEventListener("dragend", () => el.classList.remove("dragging"));
+
+    el.querySelector(".card-delete").addEventListener("click", e => {
+      e.stopPropagation();
+      if (confirm(`Delete "${c.title}"?`)) {
+        state.cards = state.cards.filter(x => x.id !== c.id);
+        save();
+        render();
+      }
+    });
+
+    return el;
+  }
+
+  function typeLabel(t) {
+    return { dict: "Dict.", wiki: "Wiki", howto: "How-To" }[t] || t;
+  }
+
+  /* ─── Composer wiring ─── */
+  const titleInput = document.getElementById("title-input");
+  const typeInput  = document.getElementById("type-input");
+  const colorInput = document.getElementById("color-input");
+
+  document.getElementById("add-btn").addEventListener("click", addCard);
+  titleInput.addEventListener("keydown", e => {
+    if (e.key === "Enter") addCard();
+  });
+
+  document.getElementById("color-reset").addEventListener("click", () => {
+    colorInput.value = DEFAULT_COLOR;
+  });
+
+  function addCard() {
+    const title = titleInput.value.trim();
+    if (!title) {
+      titleInput.focus();
+      return;
+    }
+    state.cards.push({
+      id: uid(),
+      title,
+      type: typeInput.value,
+      color: colorInput.value,
+      status: "draft",
+      created: new Date().toISOString()
+    });
+    titleInput.value = "";
+    colorInput.value = DEFAULT_COLOR;
+    save();
+    render();
+  }
+
+  document.getElementById("export-btn").addEventListener("click", () => {
+    const blob = new Blob([JSON.stringify(state, null, 2)], { type: "application/json" });
+    const a = document.createElement("a");
+    a.href = URL.createObjectURL(blob);
+    a.download = `tb-tracker-${new Date().toISOString().slice(0,10)}.json`;
+    a.click();
+    URL.revokeObjectURL(a.href);
+  });
+
+  document.getElementById("clear-btn").addEventListener("click", () => {
+    if (confirm("Clear ALL entries? This cannot be undone.")) {
+      state = { cards: [] };
+      save();
+      render();
+    }
+  });
+
+  render();
+</script>
+</body>
+</html>

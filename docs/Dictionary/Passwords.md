@@ -22,6 +22,6 @@ Strong policies include:
 - Must be unique, never reused across systems
     
 
-Orgs should also enforce expiration intervals, but with care. Frequent force changes can lead to users creating passwords with predictable variants. Modern guidance encourages password changes only when compromise is suspected. 
+Organizations should also enforce expiration intervals, but with care. Frequent force changes can lead to users creating passwords with predictable variants. Modern guidance encourages password changes only when compromise is suspected. 
 
 Secure password policies also include protections from social engineering. Users should be trained to never share passwords and report suspicious activity immediately. Enforcing complexity and history requirements via Group Policy is just the beginning. Pairing strong passwords with MFA is the best way to ensure compromised credentials do not lead to full system breach.

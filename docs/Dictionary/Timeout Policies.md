@@ -7,4 +7,4 @@ tags:
 sources:
   - CompTIA A+
 ---
-A workstation left unattended without security controls is a digital liability. Timeout enforcement controls how long an inactive screen session remains open. Enable through Windows Group policy or MDM platform alongside  screen lock enforcements.
+  **Timeout policies** define how long a session can remain inactive before the system locks automatically, ensuring unattended workstations don't remain accessible indefinitely. Configure through Windows Group Policy or an MDM platform alongside screen lock policies.

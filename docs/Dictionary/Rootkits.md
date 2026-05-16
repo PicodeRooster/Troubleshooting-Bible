@@ -7,4 +7,4 @@ tags:
 sources:
   - CompTIA A+
 ---
-Stealthy, hide deep in the OS, often modifying core system files to avoid detection. They enable attackers to maintain privileged access without triggering alarms. Rootkits may disable antivirus software, alter logs, and enable malicious activity invisible to administrators.
+**Rootkits** are malware that embed deep within the OS — often modifying core system files — to maintain privileged access while evading detection. They may disable antivirus software, alter system logs, and conceal other malicious activity from administrators.

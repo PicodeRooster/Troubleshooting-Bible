@@ -8,11 +8,10 @@ sources:
   - CompTIA A+
   - Lenovo
 ---
-Works by reducing the size of one or more files into a single "zipped" folder. Can be encrypted with password, but not a secure tool, unless combined with strong third-party tools.
+A cross-compatible tool, supported on all modern operating systems, that works by reducing the size of one or more files into a single "zipped" folder. A user can send multiple batches of different  files types by transforming them into one compressed package, then sharing this folder.  It simplifies file transfer by reducing its size all while maintaining the original content and quality of the documents.
 
-- Right-click desired folder > Compress to… > ZIP
-- Combine multi files into single .zip archive
-- Saves space and simplifies file transfer
-- Supported by all platforms, making it cross-compatible
+ZIP folders can be encrypted with password, but not they are not a secure tool by default, unless combined with strong third-party tools. As best practice, never use ZIP folders to transfer sensitive data unless further encryption is applied. 
 
-As best practice, never use for sensitive data unless further encryption is applied. 
+To create a ZIP folder, simply right-click your desired folder > Compress to… > ZIP.
+
+

@@ -7,4 +7,4 @@ tags:
 sources:
   - CompTIA A+
 ---
-An older format with a 4GB per file limit and 2TB volume limit. Widely supported in legacy systems, making it useful for USB drives and basic removable storage.
+**FAT32** (File Allocation Table 32-bit) is an older file system with a 4GB per-file limit and 2TB volume limit. Its near-universal compatibility makes it a practical choice for USB drives and basic removable storage.

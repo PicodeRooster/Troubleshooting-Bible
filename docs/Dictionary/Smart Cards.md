@@ -6,4 +6,4 @@ tags:
 sources:
   - CompTIA A+
 ---
-Plastic cards with embedded chips used to store credentials. Common in corporate and government settings. Require a card reader.
+**Smart cards** are plastic cards with embedded microchips used for authentication and access control. Common in corporate and government settings, they require a compatible card reader to function.

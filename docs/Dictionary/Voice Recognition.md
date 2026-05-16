@@ -7,4 +7,5 @@ tags:
 sources:
   - CompTIA A+
 ---
-Analyzes vocal tone and cadence. Convenient, but can be affected by bg noise, illness or recordings.
+**Voice recognition** is a biometric method that verifies identity by analyzing a user's vocal tone and speech patterns. Used in smart devices and some phone-based authentication systems. Susceptible to background noise, illness, or audio playback attacks.
+

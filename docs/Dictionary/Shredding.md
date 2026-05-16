@@ -7,5 +7,5 @@ tags:
 sources:
   - CompTIA A+
 ---
-Physical destruction using industrial shredders that pulverize hard drives into small fragments. Often used for highly sensitive environments or regulatory compliance (e.g., healthcare, government).
+A physical data destruction method that uses industrial shredders to reduce hard drives to small fragments, rendering data completely unrecoverable. Common in environments with strict compliance requirements, such as healthcare and government.
 

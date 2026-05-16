@@ -3,6 +3,7 @@ title: Physical Security
 type: dictionary
 tags:
   - security
+  - biometrics
 sources:
   - CompTIA A+
 ---

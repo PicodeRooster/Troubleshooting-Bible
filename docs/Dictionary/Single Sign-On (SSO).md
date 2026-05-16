@@ -7,4 +7,4 @@ tags:
 sources:
   - CompTIA A+
 ---
-Allows users to log in once and gain access to multiple systems of applications without reentering credentials. This is common in enterprise settings using services like Microsoft 365, Google Workspace or Okra.
+An authentication method that allows users to authenticate once and gain access to multiple systems or applications without re-entering credentials. Common in enterprise environments — examples include Microsoft 365, Google Workspace, and Okta.

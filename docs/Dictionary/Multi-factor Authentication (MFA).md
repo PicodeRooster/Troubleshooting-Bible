@@ -7,8 +7,10 @@ tags:
 sources:
   - CompTIA A+
 ---
-Multi-factor Authentication (MFA) adds a second layer of defense, significantly reducing unauthorized access. MFA drastically reduces risk of credential or brute-force attacks. Even if the password becomes leaked, the attacker still needs the second factor. Many real-world security breaches were preventable if MFA had been enabled. Requires at least 2 of the following factors:
+**Multi-factor Authentication (MFA)** requires at least two of the following factors to verify identity:
+  
+  1. Something you know (password, PIN)
+  2. Something you have (smartphone, hardware token)
+  3. Something you are (biometrics: face, fingerprint, voice)
 
-1. Something you know (password, PIN)
-2. Something you have (smartphone, token)
-3. Something you are (biometrics: face, fingerprint, voice)
+Even if a password is compromised, the attacker still needs the second factor  — making MFA one of the most effective defenses against credential and  brute-force attacks. In fact, many real-world security breaches were reportedly preventable if MFA had been enabled.

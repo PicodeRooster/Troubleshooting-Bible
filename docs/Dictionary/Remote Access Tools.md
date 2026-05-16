@@ -6,15 +6,14 @@ tags:
 sources:
   - CompTIA A+
 ---
-A standard in the modern IT toolkit allowing technicians to run a long list of troubleshooting and maintenance on other devices from anywhere around the globe. However, this ability also introduces risks if not managed with care.
+**Remote access tools** allow technicians to view and control another device remotely, enabling troubleshooting and maintenance from any location. This capability introduces risks if not handled responsibly.
 
-Remote Support Etiquette: Preserves user privacy and preserves reliable reputation.
+**Remote support etiquette** preserves user privacy and professional trust:
 
-- Notify users in advance before sessions and always get clear verbal or written consent.
-- Clearly communicate intentions using clear language, explaining processes of what you are doing as you go
-- Avoid navigating from the task unless absolutely necessary - do not look through folders when unrelated to the troubleshooting fix
-- Announce when session ends
-- Keep the user involved, especially if the issue is not resolved immediately.
+- Notify the user before the session and obtain clear consent
+- Explain what you are doing as you go, in plain language
+- Stay on task — avoid browsing files or folders unrelated to the issue
+- Announce when the session has ended
+- Keep the user informed, especially if the issue is not immediately resolved
 
-	Examples:
-	*AnyDesk*, *ScreenConnect*, *TeamViewer*
+*Examples: AnyDesk, ScreenConnect, TeamViewer*

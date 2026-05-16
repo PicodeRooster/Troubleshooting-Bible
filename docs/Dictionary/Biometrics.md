@@ -7,9 +7,9 @@ tags:
 sources:
   - CompTIA A+
 ---
-Biometric methods offer convenience and security - though they are not infallible. Factors like lighting conditions, sensor quality, and spoofing techniques can impact their reliability. 
+**Biometrics** uses unique physical or behavioral traits to verify identity. Convenient and difficult to forget, but not infallible — sensor quality, lighting, and spoofing can all affect reliability.
 
-Increasingly, users and enterprises are adopting biometric locks. These include:
+Common biometric methods include:
 
 - Fingerprint recognition
 - Facial recognition

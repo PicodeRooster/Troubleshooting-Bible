@@ -7,8 +7,9 @@ tags:
 sources:
   - CompTIA A+
 ---
-Humans using the system are sometimes the biggest threat in cybersecurity. Social engineering attacks exploit human trust, fear, curiosity, or urgency to trick users into compromising their own systems. These attacks are often cost effective, scalable and highly successful.
+**Social engineering** exploits human trust, fear, curiosity, or urgency to manipulate users into divulging sensitive information or taking actions that compromise security. These attacks are often cost-effective, scalable, and difficult to defend against.
 
-	🚩Unusual tone or poor grammar
-	🚩Sense of urgency
-	🚩Requests for credentials, wire transfers or private info
+Common red flags:
+🚩 Unusual tone or poor grammar
+🚩 Sense of urgency
+🚩 Requests for credentials, wire transfers, or sensitive information
