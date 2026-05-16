@@ -4,8 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>How-To Guides</title>
-  <script src="node_modules/lunr/lunr.js"></script>
-  <script src="node_modules/marked/lib/marked.umd.js"></script>
+  <script src="../node_modules/lunr/lunr.min.js"></script>
+  <script src="../node_modules/marked/lib/marked.umd.js"></script>
 </head>
 <body>
  <nav class="nav-bar">
@@ -29,8 +29,7 @@
 </nav>
   <div id="article">Loading...</div>
   <script>
-    //fetch("docs/Dictionary/AV.md") -- This works for example
-    fetch("docs/Introduction.md")
+    fetch("../docs/How-To Guides.md")
       .then(r => r.text())
       .then(md => {
         document.getElementById("article").innerHTML = marked.parse(md);
