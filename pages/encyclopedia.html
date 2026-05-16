@@ -8,25 +8,8 @@
   <script src="../node_modules/marked/lib/marked.umd.js"></script>
 </head>
 <body>
- <nav class="nav-bar">
-  <ul>
-    <a href="../index.html"><li class="navigation">Home</li></a>
-    <a href= "./dictionary.html"><li class="navigation">Dictionary</li><a>
-    <a href="./encyclopedia.html"><li class="navigation">Encyclopedia</li></a>
-    <a href="./how-to-guides.html"><li class="navigation">How-To Guides</li></a>
-    <a href="./resources.html"><li class="navigation">Resources</li></a>
-    <a href="./bibliography.html"><li class="navigation">Bibliography</li></a>
-  </ul>  
-    
-    <span class="search-box">
-    <form>
-    <input id="search-input" type="text" placeholder="Search...">
-    <ul id="search-results"></ul>
-    <button><img src="../../assets/images/icons/magnifying-glass.svg" width="10px"></button>
-    </form>
-    </span>
-  
-</nav>
+ <div id="nav-bar"></div>
+ <script src="../js/fetch-nav.js"></script>
 
   <div id="article">Loading...</div>
   <script>

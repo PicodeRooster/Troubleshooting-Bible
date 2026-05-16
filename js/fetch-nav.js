@@ -1,5 +1,5 @@
-fetch("../docs/Dictionary.md")
-      .then(r => r.text())
-      .then(md => {
-        document.getElementById("article").innerHTML = marked.parse(md);
-      });
+fetch('../assets/nav-bar.html')
+  .then(response => response.text())
+  .then(data => {
+    document.getElementById('nav-bar').innerHTML = data;
+  });

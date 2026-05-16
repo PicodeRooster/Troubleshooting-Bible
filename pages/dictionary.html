@@ -10,15 +10,15 @@
 <body>
 <div id="nav-bar"></div>
 
-<script>
-  fetch('../assets/nav-bar.html')
-    .then(response => response.text())
-    .then(data => {
-      document.getElementById('nav-bar').innerHTML = data;
-    });
-</script>
+<script src="../js/fetch-nav.js"></script>
 
   <div id="article">Loading...</div>
-  <script src="js/fetch-nav.js"></script>
+  <script>
+    fetch("../docs/Dictionary.md")
+      .then(r => r.text())
+      .then(md => {
+        document.getElementById("article").innerHTML = marked.parse(md);
+      });
+  </script>
 </body>
 </html>
