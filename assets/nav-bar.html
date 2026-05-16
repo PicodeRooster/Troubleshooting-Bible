@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Troubleshooting Bible - Navigation</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <nav class="nav-bar">
+    <ul>
+      <li class="navigation"><a href="../index.html">Home</a></li>
+      <li class="navigation"><a href="../pages/dictionary.html">Dictionary</a></li>
+      <li class="navigation"><a href="../pages/encyclopedia.html">Encyclopedia</a></li>
+      <li class="navigation"><a href="../pages/how-to-guides.html">How-To Guides</a></li>
+      <li class="navigation"><a href="../pages/resources.html">Resources</a></li>
+      <li class="navigation"><a href="../pages/bibliography.html">Bibliography</a></li>
+    </ul>
+
+    <div class="search-box">
+      <form>
+        <input id="search-input" type="text" placeholder="Search...">
+        <button type="submit"><img src="../assets/images/icons/magnifying-glass.svg" width="10" alt="Search"></button>
+      </form>
+      <ul id="search-results"></ul>
+    </div>
+  </nav>
+
+  <!--
+  <script>
+    let index, documents;
+
+    fetch("docs/Introduction.md")
+      .then(r => r.text())
+      .then(text => {
+        documents = [{ id: "Introduction", body: text }];
+
+        index = lunr(function () {
+          this.ref("id");
+          this.field("body");
+          documents.forEach(doc => this.add(doc));
+        });
+      });
+  </script>
+
+  <script>
+    document.getElementById("search-input").addEventListener("input", function () {
+      const results = index ? index.search(this.value) : [];
+      const list = document.getElementById("search-results");
+      list.innerHTML = results
+        .map(r => `<li>${r.ref}</li>`)
+        .join("");
+    });
+  </script>
+  -->
+</body>
+</html>
