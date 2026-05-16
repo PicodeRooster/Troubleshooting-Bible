@@ -17,3 +17,6 @@
 16. "9 Measures for Electrostatic Discharge (ESD)." *Sanken Electric Co., Ltd.*, www.semicon.sanken-ele.co.jp/en/support/reliability/.
 17.  Atlassian. "Introduction to Jira Work Items." *Atlassian.* https://www.atlassian.com/software/jira/guides/issues/overview
 18. Bluetooth SIG. "Bluetooth Technology Overview." *Bluetooth® Technology Website.* https://www.bluetooth.com/learn-about-bluetooth/tech-overview
+19. “File Encryption - Win32 Apps.” File Encryption - Win32 Apps | Microsoft Learn, learn.microsoft.com/en-us/windows/win32/fileio/file-encryption. Accessed 15 May 2026. (Encryption File System (EFS) - dictionary)
+20. Badman, Annie, and Matthew Kosinski. “What Is Metadata?” IBM, 17 Nov. 2025, www.ibm.com/think/topics/metadata. (Metada -- dictionary)
+21. “What Is Zip? How Does Zip Compression Work?” How Does ZIP Compression Work? | Lenovo US, www.lenovo.com/us/en/glossary/what-is-zip/?orgRef=https%253A%252F%252Fwww.google.com%252F&srsltid=AfmBOopEEPAxzs0WFImvwEz12XLY0MhOUzgRZwEZ3a_XcdIwUcuNAUup. Accessed 15 May 2026. 

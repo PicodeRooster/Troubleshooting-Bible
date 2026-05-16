@@ -22,5 +22,3 @@ Improper escalations can lead to consequences, such as:
 - Erosion of user trust in the support team
 
 Escalation should be a last resort, attempted only after exhausting every reasonable option within a technician's scope. When one does occur, the user should always be informed clearly of what is happening and why.
-
-*CompTIA A+*

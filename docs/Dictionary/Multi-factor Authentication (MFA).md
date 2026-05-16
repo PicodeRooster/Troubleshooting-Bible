@@ -12,6 +12,3 @@ Multi-factor Authentication (MFA) adds a second layer of defense, significantly 
 1. Something you know (password, PIN)
 2. Something you have (smartphone, token)
 3. Something you are (biometrics: face, fingerprint, voice)
-
-
-*CompTIA A+*

@@ -19,6 +19,3 @@ Restores a device to its original out-of-box configuration by reinstalling the O
 
   - Inform users the reset may restore OEM bloatware that had previously been removed.
   - In corporate environments, a dedicated reimage is typically preferred over a factory reset to maintain a controlled software baseline.
-                                                                                
-  CompTIA A+
-

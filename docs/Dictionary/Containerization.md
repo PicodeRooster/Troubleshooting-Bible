@@ -27,5 +27,3 @@ Corporate policy enforcement goes hand in hand with containerization. Through MD
 These strategies are especially valuable in BYOD scenarios, where employers must respect user privacy while maintaining control over business data.  
 
 Containerization is the mobile answer to “zero trust” - never assume, always verify, and keep business data fenced off no matter what the user is doing elsewhere on the device.
-
-*CompTIA A+*

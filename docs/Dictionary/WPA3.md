@@ -13,5 +13,3 @@ Adoption is growing, WPA3 support still varies among devices. Technicians should
 - SAE (Simultaneous Authentication of Equals): Protects against offline dictionary attacks. 
 - Individualized Data Encryption: Encrypts data even on open public networks. 
 - Forward Secrecy: Prevents past session keys from being exposed if one session is compromised. 
-
-*CompTIA A+*

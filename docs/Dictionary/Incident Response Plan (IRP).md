@@ -15,5 +15,3 @@ When a security incident occurs, panic is the enemy of precision. Having a struc
 4. **Recover** - Restore systems to normal operation. This often includes restoring from backups, reimaging systems, and validating system integrity before returning to production. 
 
 Each of these steps should be executed calmly and methodically. Skipping containment, for instance, can allow malware to spread across systems or leak data even as you’re trying to fix the issue.
-
-*CompTIA A+*

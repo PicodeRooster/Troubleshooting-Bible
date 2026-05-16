@@ -11,5 +11,3 @@ Streamlined for touchscreen interfaces, battery efficiency and app-based environ
       *Examples:*  
       *Android, iOS*
 
-*CompTIA A+*
-

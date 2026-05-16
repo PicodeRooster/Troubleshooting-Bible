@@ -12,5 +12,3 @@ Humans using the system are sometimes the biggest threat in cybersecurity. Socia
 	🚩Unusual tone or poor grammar
 	🚩Sense of urgency
 	🚩Requests for credentials, wire transfers or private info
-
-*CompTIA A+*

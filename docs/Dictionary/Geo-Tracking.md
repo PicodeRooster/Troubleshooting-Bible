@@ -16,5 +16,3 @@ Best practices include:
  - Obtaining user consent where required by law
  - Using geo-fencing to enforce location-based restrictions
  - Disabling location tracking outside of business hours when possible
-
-*CompTIA A+*

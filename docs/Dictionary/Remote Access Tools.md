@@ -18,5 +18,3 @@ Remote Support Etiquette: Preserves user privacy and preserves reliable reputati
 
 	Examples:
 	*AnyDesk*, *ScreenConnect*, *TeamViewer*
-
-*CompTIA A+*

@@ -6,6 +6,7 @@ tags:
   - system-architecture
 sources:
   - CompTIA A+
+  - Lenovo
 ---
 Works by reducing the size of one or more files into a single "zipped" folder. Can be encrypted with password, but not a secure tool, unless combined with strong third-party tools.
 
@@ -15,5 +16,3 @@ Works by reducing the size of one or more files into a single "zipped" folder. C
 - Supported by all platforms, making it cross-compatible
 
 As best practice, never use for sensitive data unless further encryption is applied. 
-
-*CompTIA A+*, *Lenovo*

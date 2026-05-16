@@ -12,5 +12,3 @@ sources:
 This mechanism prevents eavesdroppers from intercepting login credentials, credit card numbers, or any sensitive information transmitted during sessions. Without HTTPS, this data would be visible in plaintext to anyone monitoring the network.
 
 TLS plays a vital role outside the browser - in email encryption (SMTP over TLS), secure APIs, and VPN protocols. A solid understanding of how TLS functions and how to troubleshoot common certificate errors can make the differences between secure environments and one vulnerable to man-in-the-middle attacks.
-
-*CompTIA A+*
