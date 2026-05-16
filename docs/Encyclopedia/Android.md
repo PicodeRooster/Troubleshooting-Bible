@@ -1,8 +1,12 @@
 ---
-title: Enable Secure and Effective Permissions in Windows
+title: Android
 type: encyclopedia
-tags: [windows, NTFS, permissions, EFS, file-system, security]
-sources: [CompTIA A+]
+tags:
+  - mobile-devices
+  - operating-systems
+sources:
+  - CompTIA A+
+  - Alian
 ---
 # Android
 
@@ -218,11 +222,3 @@ Erases all data and restores the phone to its original settings. Commonly used t
 `Press and hold Power` → tap and hold **"Power Off"** → select **Safe Mode**
 
 Boots Android with only pre-installed system apps, disabling all third-party apps. Useful for diagnosing issues caused by installed applications.
-
----
-
-## Sources
-
- - Alian, Mohammad, et al. “Android Operating System: An in Depth Introduction.” University of Illinois Urbana-Champaign .
-
- - Walker, Shawn. _CompTIA Study Guide A+: 220-1201 and 220-1202_. 3rd ed., 2025.
