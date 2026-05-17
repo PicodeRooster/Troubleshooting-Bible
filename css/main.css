@@ -2,14 +2,14 @@
   
   @font-face {
       font-family: 'Figtree';
-      src: url('assets/fonts/Figtree-VariableFont_wght.ttf') format('truetype');
+      src: url('../assets/fonts/Figtree-VariableFont_wght.ttf') format('truetype');
       font-weight: normal;
       font-style: normal;
 }
 
   @font-face {
       font-family: 'Figtree';
-      src: url('assets/fonts/Figtree-VariableFont_wght.ttf') format('truetype');
+      src: url('../assets/fonts/Figtree-VariableFont_wght.ttf') format('truetype');
       font-weight: 800;
       font-style: bolder;
 
@@ -17,12 +17,12 @@
 
   @font-face {
       font-family: 'Figtree';
-      src: url('assets/fonts/Figtree-VariableFont_wght.ttf') format('truetype');
+      src: url('../assets/fonts/Figtree-VariableFont_wght.ttf') format('truetype');
 }
 
   @font-face {
       font-family: 'Outfit';
-      src: url('assets/fonts/Outfit-SemiBold.ttf') format('truetype');
+      src: url('../assets/fonts/Outfit-SemiBold.ttf') format('truetype');
       font-style: bold;
 }
 
