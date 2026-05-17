@@ -1,0 +1,21 @@
+Here's what I see and what main.js should handle:
+
+Current state:
+
+Each page has inline <script> tags doing the same fetch → marked.parse → innerHTML pattern
+lunr is loaded but search is entirely commented out
+The Dictionary, Encyclopedia, and How-To Guides sections each have a top-level summary MD, but 120 individual article files in subdirectories that aren't individually accessible yet
+Nav bar is injected via its own js/nav-bar.js (actually named fetch-nav.js in the pages)
+What main.js should do:
+
+loadArticle(path) — one shared function replacing the copy-pasted inline fetch/parse/render blocks across every page. All pages call this instead of repeating themselves.
+
+URL-based routing — read a ?doc=Dictionary/Bluetooth query param (or hash) so individual articles are directly linkable and the browser back button works. Right now there's no way to link anyone to a specific article.
+
+Sidebar / article list — the Dictionary alone has 60+ entries that are invisible to users. A sidebar populated from a static docs/manifest.json (listing all file paths) would expose all that content. You'd generate the manifest once and update it when adding articles.
+
+Search index — wire up lunr properly. It needs a document list to index; the manifest solves this. Build the index on page load, hook it to #search-input, and make results navigate to ?doc=....
+
+Shared render pipeline — marked options (sanitizer, link renderer for internal [[wiki links]] if you use Obsidian-style links) set once, not per-page.
+
+The highest-value item is #2 + #3 — you have a lot of content that's completely hidden behind the top-level summary pages. Routing + a sidebar would make the whole knowledge base actually browsable.
