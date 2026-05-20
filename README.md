@@ -2,6 +2,7 @@
 
 The Troubleshooting Bible is a portable, offline-first central reference documentation tool designed to support busy I.T. professionals and system administrators. It is a collection proven diagnostic methods, frequently encountered errors, in-depth analyzes and practical fixes in one searchable master guide. This living document can viewed in the browser, or downloaded into multiple reading formats directly from the launch site. It is an ongoing project that relies on the support and collaboration of technicians from around the world.
 
+Documents are loaded by running index.html. This pre-loads all documents in each search. 
 ## Tools
 
 `tree | grep -i "<string>"`
