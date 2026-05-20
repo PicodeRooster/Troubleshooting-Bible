@@ -21,9 +21,9 @@
     <div class="search-box">
       <form>
         <input id="search-input" type="text" placeholder="Search...">
+        <ul id="search-dropdown" hidden></ul>
         <button type="submit"><img src="../assets/images/icons/magnifying-glass.svg" width="10" alt="Search"></button>
       </form>
-      <ul id="search-results"></ul>
     </div>
   </nav>
 
@@ -38,7 +38,8 @@
 
         index = lunr(function () {
           this.ref("id");
-          this.field("body");
+          this.field("body")form>
+   ;
           documents.forEach(doc => this.add(doc));
         });
       });

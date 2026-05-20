@@ -7,10 +7,29 @@
   <script src="../node_modules/lunr/lunr.min.js"></script>
   <script src="../node_modules/marked/lib/marked.umd.js"></script>
 </head>
-<body>
+<body data-section="Dictionary" data-is-nav="true">
+   <nav class="nav-bar">
+  <ul>
+    <a href="./index.html"><li class="navigation">Home</li></a>
+    <a href= "./pages/dictionary.html"><li class="navigation">Dictionary</li><a>
+    <a href="./pages/encyclopedia.html"><li class="navigation">Encyclopedia</li></a>
+    <a href="./pages/how-to-guides.html"><li class="navigation">How-To Guides</li></a>
+    <a href="./pages/resources.html"><li class="navigation">Resources</li></a>
+    <a href="./pages/bibliography.html"><li class="navigation">Bibliography</li></a>
+  </ul>
+
+    <span class="search-box">
+    <form>
+    <input id="search-input" type="text" placeholder="Search...">
+    <ul id="search-dropdown" hidden></ul>
+    <button><img src="../assets/images/icons/magnifying-glass.svg" width="10px"></button>
+    </form>
+    </span>
+</nav>
+  <!--
 <div id="nav-bar"></div>
 <script src="../js/nav-bar.js"></script>
-
+-->
   <div id="article">Loading...</div>
   <script>
     var manifest = [
@@ -91,13 +110,9 @@
       {"id":"Dictionary/exFAT","path":"Dictionary/exFAT.md","title":"exFAT","type":"dictionary","tags":["storage-drive","windows","macOS"]}
     ];
   </script>
-    <script src="js/main.js"></script>
+<script src="../js/main.js"></script>
   <script>
-    fetch("../docs/Dictionary.md")
-      .then(r => r.text())
-      .then(md => {
-        document.getElementById("article").innerHTML = marked.parse(md);
-      });
+    loadArticle('../docs/Dictionary.md');
   </script>
 </body>
 </html>
