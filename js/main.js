@@ -98,16 +98,25 @@
 
   function loadArticle(path) {
     const el = document.getElementById('article');
-    if (!el || typeof marked === 'undefined') return;
-
-    // Resolve docs/ prefix relative to the current page location
-    const atRoot = window.location.pathname.indexOf('/pages/') === -1;
-    const docsPrefix = atRoot ? 'docs/' : '../docs/';
-
-    fetch(docsPrefix + path)
-      .then(function (r) { return r.text(); })
-      .then(function (md) { el.innerHTML = marked.parse(md); })
-      .catch(function () { el.innerHTML = '<p class="load-error">Article not found.</p>'; });
+    if (!el) return;
+ 
+    // Normalise path so callers can pass either "Dictionary/Bluetooth.md"
+    // or the legacy "../docs/Dictionary/Bluetooth.md" form and both resolve.
+    const normPath = path
+      .replace(/^\.\.\/docs\//, '')
+      .replace(/^docs\//, '');
+ 
+    const entry = manifestById[normPath] || manifestById[normPath.replace(/\.md$/, '')];
+ 
+    if (!entry || !entry.content) {
+      el.innerHTML = '<p class="load-error">Article not found.</p>';
+      return;
+    }
+ 
+    // content is expected to be pre-rendered HTML baked in by the build step.
+    // If the build step stored raw markdown instead, uncomment the fallback below:
+    // el.innerHTML = (typeof marked !== 'undefined') ? marked.parse(entry.content) : entry.content;
+    el.innerHTML = entry.content;
   }
 
   window.loadArticle = loadArticle;
