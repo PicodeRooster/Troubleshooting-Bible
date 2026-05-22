@@ -11,23 +11,26 @@ Documents are loaded by running . This pre-loads all documents in each page.
 
 `tree | grep -i "<string>"`
 
-`tree` - list directories, subdirectories and files
+`tree` - list directories, sub-directories and files
 `grep` - search for string patterns in each file, outputs each line that matches a pattern
 `-i`  - ignore  case  sensitive characters 
 
-| Tool               | Usage    |
-| ------------------------------|
-| `Obsidian`         |          |
-| `Claude`           |          |
-| `Claude Code`      |          |
-| `Node`             |          |
-| `tb-tracker.html`  |          |
-| `cp`               |          |
-| `ls`               |          |
-| `mv`               |          |
-| `grep`             |          |
-| `tree`             |          |
+| Tool              | Usage |
+| ----------------- | ----- |
+| `Obsidian`        |       |
+| `Claude`          |       |
+| `Claude Code`     |       |
+| `Node`            |       |
+| `tb-tracker.html` |       |
+| `cp`              |       |
+| `ls`              |       |
+| `mv`              |       |
+| `grep`            |       |
+| `tree`            |       |
 
+index.html --> encyclopedia.html --> Antivirus(AV).html
 
+index.html - parses entire project content
+<page>.html - parses content within the current location, links to individual articles as HTML pages
 
 
