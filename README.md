@@ -4,7 +4,8 @@ The Troubleshooting Bible is a portable, offline-first central reference documen
 
 Using the `file://` URI scheme, `index.html` has all project articles inserted as variables. The entire project's content is baked into the HTML and JavaScript files during the build step, before the zip is packaged. When a user opens index.html, everything is already there." The navigation is repeated across each of the five pages to browse more efficiently. 
 
-The user can user the Home page to search for all articles, but the articles do not populate the home page. Instead, all results are listed under the search input across all sections of the Bible. Users can narrow their search results further by visiting specific pages, and only searching articles within this page. 
+Use the the Home page to search for all indexed content in the Bible. The search box will display a list of relevant results based on your input, without populating the home page. Selecting an article from the dropdown list will navigate to the page that article is located. 
+Users can narrow their search results further by visiting specific pages, and only searching articles within this page. For example, typing "antivirus" displays the E
 
 Documents are loaded by running . This pre-loads all documents in each page. 
 ## Tools
@@ -27,10 +28,18 @@ Documents are loaded by running . This pre-loads all documents in each page.
 | `mv`              |       |
 | `grep`            |       |
 | `tree`            |       |
-
+```
 index.html --> encyclopedia.html --> Antivirus(AV).html
 
 index.html - parses entire project content
 <page>.html - parses content within the current location, links to individual articles as HTML pages
 
+```
 
+### Additional Resources
+
+The formatting in HTML looks like so:
+
+```
+<a href="www.microsoftlearn.com"><h5>Microsoft Learn</h5></a><p>Provides detailed documentation and training guides for Microsoft products.</p>
+```

@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Resources</title>
+  <title>Additional Resources</title>
   <script src="../node_modules/lunr/lunr.min.js"></script>
   <script src="../node_modules/marked/lib/marked.umd.js"></script>
 </head>
@@ -11,40 +11,7 @@
  <div id="nav-bar"></div>
  <script src="../js/nav-bar.js"></script>
 
-  <div id="article">Loading...</div>
-  <script>
-    fetch("../docs/Resources.md")
-      .then(r => r.text())
-      .then(md => {
-        document.getElementById("article").innerHTML = marked.parse(md);
-      });
-  </script>
-  <!--
-  <script>
-    let index, documents;
+<a href="https://learn.microsoft.com/en-us/"><h5>Microsoft Learn</h5></a><p>Provides detailed documentation and training guides for Microsoft products.</p>
 
-fetch("docs/Introduction.md")
-  .then(r => r.text())
-  .then(text => {
-    documents = [{ id: "Introduction", body: text }];
-
-    index = lunr(function () {
-      this.ref("id");
-      this.field("body");
-      documents.forEach(doc => this.add(doc));
-    });
-  });
-  </script>
-   When CSS and articles are ready, load to find in page
-  <script>
-    document.getElementById("search-input").addEventListener("input", function () {
-  const results = index ? index.search(this.value) : [];
-  const list = document.getElementById("search-results");
-  list.innerHTML = results
-    .map(r => `<li>${r.ref}</li>`)
-    .join("");
-});
-  </script>
-  -->
 </body>
 </html>
