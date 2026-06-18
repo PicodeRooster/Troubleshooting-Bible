@@ -1,0 +1,44 @@
+{
+  "CompTIA A+": {
+    "source_type": "book",
+      "author": {
+        "first_name": "Shawn",
+        "last_name": "Walker"
+      },
+      "source_title": "CompTIA Study Guide A+: 220-1201 and 220-1202",
+      "container_title": "",
+      "contributor": "",
+      "version": "15",
+      "number": "",
+      "publisher": "",
+      "publication_date": "2025",
+      "location": "Orlando, FL"
+  },
+    "Kingston": {
+      "source_type": "website",
+      "author": "Kingston Technology",
+      "source_title": "How to Clean Your PC System",
+      "container_title": "Kingston Technology Blog",
+      "link": "https://www.kingston.com/en/blog/gaming/how-to-clean-your-pc-system",
+      "publication_date": "September 2021",
+      "access_date": "May 3, 2026"
+  },
+    "Metadata IBM": {
+      "source_type": "website",
+      "authors": {
+        "first_author": {
+          "first_name": "Annie",
+          "last_name": "Badman"          
+        },
+        "second_author": {
+          "first_name": "Matthew",
+          "last_name": "Kosinski"          
+        } 
+      },
+      "source_title": "What Is Metadata?",
+      "container_title": "IBM Think",
+      "link": "https://www.kingston.com/en/blog/gaming/how-to-clean-your-pc-system",
+      "publication_date": "17 November 2025",
+      "access_date": "May 3, 2026"
+  }  
+}

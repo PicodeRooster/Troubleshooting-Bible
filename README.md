@@ -43,3 +43,7 @@ The formatting in HTML looks like so:
 ```
 <a href="www.microsoftlearn.com"><h5>Microsoft Learn</h5></a><p>Provides detailed documentation and training guides for Microsoft products.</p>
 ```
+
+The main build script updates: `dictionary.html`, `encyclopedia.html`, `how-to-guides.html`.
+The file for `bibliography.html` is built by `sources.json`.
+The file `resources.html` is manually built and updated.
