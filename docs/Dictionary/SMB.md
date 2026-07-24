@@ -1,0 +1,1 @@
+The Server Message Block protocol, or SMB for short, is an internet protocol that enables communication between computers, allowing for network file sharing, and access to resources, like storage and apps. It is the most popular protocol for resource sharing across devices with different operating systems. 
